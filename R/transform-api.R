@@ -261,11 +261,46 @@ print.usasp_tibble <- function(x, ...) {
   pagination <- attr(x, "pagination")
   if (!is.null(pagination)) {
     cli::cli_h2("Pagination")
-    cli::cli_dl(c(
-      "Page" = pagination$page,
+    
+    # Create pagination details list
+    pages_retrieved <- if(!is.null(pagination$retrieved_pages)) {
+      pagination$retrieved_pages
+    } else {
+      1
+    }
+    
+    total_pages <- ceiling(pagination$total / pagination$limit)
+    
+    pagination_details <- c(
+      "Results per Page" = pagination$limit,
       "Total Results" = pagination$total,
-      "Results per Page" = pagination$limit
-    ))
+      "Total Pages" = total_pages,
+      "Retrieved" = if(pages_retrieved == total_pages) {
+        "All pages"
+      } else if(pages_retrieved == 1) {
+        sprintf("Page %d of %d", pagination$page, total_pages)
+      } else {
+        sprintf("Pages %d-%d of %d", 
+                pagination$page, 
+                pagination$last_page,
+                total_pages)
+      }
+    )
+    
+    cli::cli_dl(pagination_details)
+    
+    # Add info alert for partial retrieval
+    if (pages_retrieved < total_pages) {
+      cli::cli_alert_info(c(
+        "Showing partial results. ",
+        if(pages_retrieved == 1) {
+          "Use '.page_all = TRUE' to retrieve all pages"
+        } else {
+          sprintf("Retrieved %d of %d pages. Use '.page_all = TRUE' for all pages.", 
+                  pages_retrieved, total_pages)
+        }
+      ))
+    }
   }
   
   # Print messages if present
