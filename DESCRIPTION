@@ -8,6 +8,8 @@ Description: Provides a comprehensive interface to the USAspending.gov API,
     awards, recipients, and more. The package implements the complete v2 API
     with consistent return formats and error handling.
 License: MIT + file LICENSE
+URL: https://r-pkg.thecoatlessprofessor.com/usaspending/, https://github.com/coatless-rpkg/usaspending
+BugReports: https://github.com/coatless-rpkg/usaspending/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
