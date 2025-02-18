@@ -39,6 +39,7 @@ Response from the API, either as a tibble or raw response
 Make a call to the USASpending API
 }
 \examples{
+\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Get single page of results as a tibble
 usasp("/agency/awards/count", fiscal_year = 2023)
 
@@ -48,4 +49,5 @@ usasp("/agency/awards/count", fiscal_year = 2023,
       
 # Get raw JSON response
 usasp("/agency/awards/count", fiscal_year = 2023, .as_tibble = FALSE)
+\dontshow{\}) # examplesIf}
 }

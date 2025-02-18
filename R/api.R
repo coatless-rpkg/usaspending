@@ -10,7 +10,7 @@
 #' @param .flatten Logical, whether to flatten nested structures in tibble output
 #' @return Response from the API, either as a tibble or raw response
 #' @export
-#' @examples
+#' @examplesIf interactive()
 #' # Get single page of results as a tibble
 #' usasp("/agency/awards/count", fiscal_year = 2023)
 #' 
