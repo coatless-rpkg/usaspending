@@ -9,10 +9,19 @@
 \alias{agency_budget_function_count}
 \alias{agency_budget_functions}
 \alias{agency_budget_resources}
-\alias{agency_federal_accounts}
+\alias{agency_federal_account}
+\alias{agency_federal_account_count}
 \alias{agency_object_classes}
-\alias{agency_program_activities}
-\alias{agency_sub_agencies}
+\alias{agency_object_class_count}
+\alias{agency_obligations_by_award_category}
+\alias{agency_program_activity}
+\alias{agency_program_activity_count}
+\alias{agency_sub_agency}
+\alias{agency_sub_agency_count}
+\alias{agency_sub_components}
+\alias{agency_sub_components_accounts}
+\alias{agency_treasury_account_object_class}
+\alias{agency_treasury_account_program_activity}
 \title{Access USAspending API Agency-Related Endpoints}
 \usage{
 agency_overview(toptier_code, ...)
@@ -34,23 +43,56 @@ agency_budget_functions(
 
 agency_budget_resources(toptier_code, ...)
 
-agency_federal_accounts(
+agency_federal_account(
   toptier_code,
   fiscal_year = NULL,
   .page_all = FALSE,
   ...
 )
+
+agency_federal_account_count(toptier_code, fiscal_year = NULL, ...)
 
 agency_object_classes(toptier_code, fiscal_year = NULL, .page_all = FALSE, ...)
 
-agency_program_activities(
+agency_object_class_count(toptier_code, fiscal_year = NULL, ...)
+
+agency_obligations_by_award_category(toptier_code, fiscal_year = NULL, ...)
+
+agency_program_activity(
   toptier_code,
   fiscal_year = NULL,
   .page_all = FALSE,
   ...
 )
 
-agency_sub_agencies(toptier_code, fiscal_year = NULL, .page_all = FALSE, ...)
+agency_program_activity_count(
+  toptier_code,
+  fiscal_year = NULL,
+  .page_all = FALSE,
+  ...
+)
+
+agency_sub_agency(toptier_code, fiscal_year = NULL, .page_all = FALSE, ...)
+
+agency_sub_agency_count(
+  toptier_code,
+  fiscal_year = NULL,
+  .page_all = FALSE,
+  ...
+)
+
+agency_sub_components(toptier_code, fiscal_year = NULL, ...)
+
+agency_sub_components_accounts(
+  toptier_code,
+  bureau_slug,
+  fiscal_year = NULL,
+  ...
+)
+
+agency_treasury_account_object_class(treasury_account_symbol, ...)
+
+agency_treasury_account_program_activity(treasury_account_symbol, ...)
 }
 \arguments{
 \item{toptier_code}{A character string representing the unique identifier for a
@@ -65,6 +107,10 @@ If NULL (default), returns data for all available fiscal years.}
 \item{.page_all}{Logical indicating whether to retrieve all pages of results (TRUE)
 or just the first page (FALSE, default). Use TRUE for complete datasets,
 but be aware this may take longer for large result sets.}
+
+\item{bureau_slug}{A character string slug identifier for the bureau}
+
+\item{treasury_account_symbol}{A character string representing the Treasury Account Symbol (TAS)}
 }
 \value{
 A tibble containing the requested agency data. The structure varies by endpoint:
@@ -73,13 +119,22 @@ A tibble containing the requested agency data. The structure varies by endpoint:
 \item agency_awards(): Detailed award information including amounts and recipients
 \item agency_awards_count(): Count of awards by category and fiscal year
 \item agency_awards_count_all(): Government-wide award counts
-\item agency_federal_accounts(): Federal accounts associated with the agency
+\item agency_federal_account(): Federal accounts associated with the agency
+\item agency_federal_account_count(): Count of federal accounts and treasury accounts
 \item agency_object_classes(): Object class spending for the agency
 \item agency_program_activities(): Program activities for the agency
 \item agency_sub_agencies(): Sub-agencies within the main agency
 \item agency_budget_function_count(): Count of budget functions
 \item agency_budget_functions(): Detailed budget function data
 \item agency_budget_resources(): Overview of agency budgetary resources
+\item agency_obligations_by_award_category(): Obligation amounts by award category
+\item agency_object_class_count(): Count of object classes
+\item agency_program_activity_count(): Count of program activity categories
+\item agency_sub_agency_count(): Count of sub-agencies and offices
+\item agency_sub_components(): List of bureaus for the agency
+\item agency_sub_components_accounts(): Federal accounts by bureau
+\item treasury_account_object_class(): Object classes for a treasury account
+\item treasury_account_program_activity(): Program activities for a treasury account
 }
 }
 \description{
