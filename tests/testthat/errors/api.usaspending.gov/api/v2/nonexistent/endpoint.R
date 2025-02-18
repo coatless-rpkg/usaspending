@@ -1,0 +1,10 @@
+structure(list(method = "GET", url = "https://api.usaspending.gov/api/v2/nonexistent/endpoint", 
+    status_code = 404L, headers = structure(list(Date = "Tue, 18 Feb 2025 09:59:41 GMT", 
+        `Content-Type` = "text/html; charset=utf-8", `Content-Length` = "179", 
+        Connection = "keep-alive", `X-Frame-Options` = "DENY", 
+        `X-Content-Type-Options` = "nosniff", `Referrer-Policy` = "same-origin", 
+        `Cross-Origin-Opener-Policy` = "same-origin", Vary = "origin", 
+        `Strict-Transport-Security` = "max-age=31536000; includeSubDomains", 
+        `Set-Cookie` = "REDACTED"), class = "httr2_headers"), 
+    body = charToRaw("\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

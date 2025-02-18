@@ -1,0 +1,118 @@
+{
+    "results": [
+        [
+            {
+                "awarding_toptier_agency_name": "Department of Energy",
+                "awarding_toptier_agency_code": "089",
+                "contracts": 5498,
+                "direct_payments": 1,
+                "grants": 9949,
+                "idvs": 370,
+                "loans": 9,
+                "other": 26
+            },
+            {
+                "awarding_toptier_agency_name": "Environmental Protection Agency",
+                "awarding_toptier_agency_code": "068",
+                "contracts": 6793,
+                "direct_payments": 0,
+                "grants": 6804,
+                "idvs": 446,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Agency for International Development",
+                "awarding_toptier_agency_code": "072",
+                "contracts": 6665,
+                "direct_payments": 15,
+                "grants": 5429,
+                "idvs": 520,
+                "loans": 0,
+                "other": 98
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Labor",
+                "awarding_toptier_agency_code": "1601",
+                "contracts": 2789,
+                "direct_payments": 0,
+                "grants": 5606,
+                "idvs": 224,
+                "loans": 0,
+                "other": 330
+            },
+            {
+                "awarding_toptier_agency_name": "Smithsonian Institution",
+                "awarding_toptier_agency_code": "3300",
+                "contracts": 3359,
+                "direct_payments": 0,
+                "grants": 0,
+                "idvs": 78,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "National Endowment for the Arts",
+                "awarding_toptier_agency_code": "417",
+                "contracts": 37,
+                "direct_payments": 0,
+                "grants": 3335,
+                "idvs": 3,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Corporation for National and Community Service",
+                "awarding_toptier_agency_code": "485",
+                "contracts": 111,
+                "direct_payments": 0,
+                "grants": 2632,
+                "idvs": 15,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "U.S. Agency for Global Media",
+                "awarding_toptier_agency_code": "514",
+                "contracts": 2218,
+                "direct_payments": 0,
+                "grants": 5,
+                "idvs": 106,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Export-Import Bank of the United States",
+                "awarding_toptier_agency_code": "083",
+                "contracts": 345,
+                "direct_payments": 0,
+                "grants": 0,
+                "idvs": 76,
+                "loans": 1565,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "National Endowment for the Humanities",
+                "awarding_toptier_agency_code": "418",
+                "contracts": 11,
+                "direct_payments": 0,
+                "grants": 1858,
+                "idvs": 0,
+                "loans": 0,
+                "other": 0
+            }
+        ]
+    ],
+    "page_metadata": {
+        "page": 3,
+        "total": 77,
+        "limit": 10,
+        "next": 4,
+        "previous": 2,
+        "hasNext": true,
+        "hasPrevious": true
+    },
+    "messages": [
+
+    ]
+}

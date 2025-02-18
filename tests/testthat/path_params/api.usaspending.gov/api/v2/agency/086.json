@@ -1,0 +1,95 @@
+{
+    "fiscal_year": 2025,
+    "toptier_code": "086",
+    "name": "Department of Housing and Urban Development",
+    "abbreviation": "HUD",
+    "agency_id": 882,
+    "icon_filename": "DHUD.png",
+    "mission": "HUD's mission is to create strong, sustainable, inclusive communities and quality affordable homes for all. HUD is working to strengthen the housing market to bolster the economy and protect consumers; meet the need for quality affordable rental homes; utilize housing as a platform for improving quality of life; build inclusive and sustainable communities free from discrimination, and transform the way HUD does business.",
+    "website": "https://www.hud.gov/",
+    "congressional_justification_url": "https://www.hud.gov/cj",
+    "about_agency_data": null,
+    "subtier_agency_count": 12,
+    "def_codes": [
+        {
+            "code": "A",
+            "public_law": "Emergency P.L. 115-56",
+            "title": "Continuing Appropriations Act, 2018 and Supplemental Appropriations for Disaster Relief Requirements Act, 2017",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-115publ56/pdf/PLAW-115publ56.pdf",
+            "disaster": null
+        },
+        {
+            "code": "AAA",
+            "public_law": "Emergency P.L. 117-180",
+            "title": "Continuing Appropriations and Ukraine Supplemental Appropriations Act, 2023",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ180/pdf/PLAW-117publ180.pdf",
+            "disaster": null
+        },
+        {
+            "code": "AAB",
+            "public_law": "Emergency P.L. 117-328",
+            "title": "Consolidated Appropriations Act, 2023",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ328/pdf/PLAW-117publ328.pdf",
+            "disaster": null
+        },
+        {
+            "code": "AAF",
+            "public_law": "Emergency P.L. 118-42",
+            "title": "Consolidated Appropriations Act, 2024",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-118publ42/pdf/PLAW-118publ42.pdf",
+            "disaster": null
+        },
+        {
+            "code": "C",
+            "public_law": "Emergency P.L. 115-123",
+            "title": "Bipartisan Budget Act of 2018",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+            "disaster": null
+        },
+        {
+            "code": "D",
+            "public_law": "Emergency P.L. 115-254",
+            "title": "FAA Reauthorization Act of 2018",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-115publ254/pdf/PLAW-115publ254.pdf",
+            "disaster": null
+        },
+        {
+            "code": "E",
+            "public_law": "Emergency P.L. 116-20",
+            "title": "Additional Supplemental Appropriations for Disaster Relief Act, 2019",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-116publ20/pdf/PLAW-116publ20.pdf",
+            "disaster": null
+        },
+        {
+            "code": "N",
+            "public_law": "Emergency P.L. 116-136",
+            "title": "Coronavirus Aid, Relief, and Economic Security Act or the CARES Act",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-116publ136/pdf/PLAW-116publ136.pdf",
+            "disaster": "covid_19"
+        },
+        {
+            "code": "Q",
+            "public_law": "Not Designated Nonemergency/Emergency/Disaster/Wildfire Suppression",
+            "title": "Not Designated Nonemergency/Emergency/Disaster/Wildfire Suppression",
+            "urls": null,
+            "disaster": null
+        },
+        {
+            "code": "V",
+            "public_law": "Non-emergency P.L. 117-2",
+            "title": "American Rescue Plan Act of 2021",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ2/pdf/PLAW-117publ2.pdf",
+            "disaster": "covid_19"
+        },
+        {
+            "code": "X",
+            "public_law": "Emergency P.L. 117-43",
+            "title": "Extending Government Funding and Delivering Emergency Assistance Act",
+            "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ43/pdf/PLAW-117publ43.pdf",
+            "disaster": null
+        }
+    ],
+    "messages": [
+
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "results": [
+        [
+            {
+                "awarding_toptier_agency_name": "Department of Transportation",
+                "awarding_toptier_agency_code": "069",
+                "contracts": 18557,
+                "direct_payments": 873,
+                "grants": 122838,
+                "idvs": 2184,
+                "loans": 17,
+                "other": 57
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Homeland Security",
+                "awarding_toptier_agency_code": "070",
+                "contracts": 44414,
+                "direct_payments": 711,
+                "grants": 9168,
+                "idvs": 2316,
+                "loans": 19,
+                "other": 51353
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Justice",
+                "awarding_toptier_agency_code": "015",
+                "contracts": 63902,
+                "direct_payments": 0,
+                "grants": 11778,
+                "idvs": 2079,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of the Interior",
+                "awarding_toptier_agency_code": "014",
+                "contracts": 37664,
+                "direct_payments": 4180,
+                "grants": 31034,
+                "idvs": 3168,
+                "loans": 0,
+                "other": 281
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Education",
+                "awarding_toptier_agency_code": "091",
+                "contracts": 1265,
+                "direct_payments": 32460,
+                "grants": 24986,
+                "idvs": 128,
+                "loans": 15787,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of State",
+                "awarding_toptier_agency_code": "019",
+                "contracts": 47073,
+                "direct_payments": 0,
+                "grants": 13430,
+                "idvs": 7868,
+                "loans": 0,
+                "other": 678
+            },
+            {
+                "awarding_toptier_agency_name": "National Science Foundation",
+                "awarding_toptier_agency_code": "049",
+                "contracts": 724,
+                "direct_payments": 0,
+                "grants": 28534,
+                "idvs": 20,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Commerce",
+                "awarding_toptier_agency_code": "013",
+                "contracts": 14918,
+                "direct_payments": 0,
+                "grants": 5700,
+                "idvs": 907,
+                "loans": 10,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "National Aeronautics and Space Administration",
+                "awarding_toptier_agency_code": "080",
+                "contracts": 10316,
+                "direct_payments": 0,
+                "grants": 8623,
+                "idvs": 916,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of the Treasury",
+                "awarding_toptier_agency_code": "020",
+                "contracts": 13567,
+                "direct_payments": 2664,
+                "grants": 2765,
+                "idvs": 613,
+                "loans": 5,
+                "other": 13
+            }
+        ]
+    ],
+    "page_metadata": {
+        "page": 2,
+        "total": 77,
+        "limit": 10,
+        "next": 3,
+        "previous": 1,
+        "hasNext": true,
+        "hasPrevious": true
+    },
+    "messages": [
+
+    ]
+}

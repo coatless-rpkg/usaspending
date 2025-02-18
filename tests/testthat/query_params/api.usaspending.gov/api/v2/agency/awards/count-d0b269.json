@@ -1,0 +1,118 @@
+{
+    "results": [
+        [
+            {
+                "awarding_toptier_agency_name": "Department of Defense",
+                "awarding_toptier_agency_code": "097",
+                "contracts": 4042265,
+                "direct_payments": 3,
+                "grants": 16854,
+                "idvs": 54132,
+                "loans": 0,
+                "other": 134
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Agriculture",
+                "awarding_toptier_agency_code": "012",
+                "contracts": 49494,
+                "direct_payments": 1856256,
+                "grants": 43200,
+                "idvs": 5895,
+                "loans": 101337,
+                "other": 126206
+            },
+            {
+                "awarding_toptier_agency_name": "General Services Administration",
+                "awarding_toptier_agency_code": "047",
+                "contracts": 1359520,
+                "direct_payments": 0,
+                "grants": 0,
+                "idvs": 22076,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Housing and Urban Development",
+                "awarding_toptier_agency_code": "086",
+                "contracts": 1337,
+                "direct_payments": 114505,
+                "grants": 57321,
+                "idvs": 111,
+                "loans": 768239,
+                "other": 33
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Veterans Affairs",
+                "awarding_toptier_agency_code": "036",
+                "contracts": 93603,
+                "direct_payments": 356843,
+                "grants": 2842,
+                "idvs": 8811,
+                "loans": 27866,
+                "other": 223292
+            },
+            {
+                "awarding_toptier_agency_name": "Small Business Administration",
+                "awarding_toptier_agency_code": "073",
+                "contracts": 1294,
+                "direct_payments": 3245,
+                "grants": 1076,
+                "idvs": 82,
+                "loans": 346595,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Social Security Administration",
+                "awarding_toptier_agency_code": "028",
+                "contracts": 3625,
+                "direct_payments": 309798,
+                "grants": 238,
+                "idvs": 466,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Department of Health and Human Services",
+                "awarding_toptier_agency_code": "075",
+                "contracts": 59292,
+                "direct_payments": 14611,
+                "grants": 177454,
+                "idvs": 4856,
+                "loans": 0,
+                "other": 515
+            },
+            {
+                "awarding_toptier_agency_name": "Federal Communications Commission",
+                "awarding_toptier_agency_code": "027",
+                "contracts": 464,
+                "direct_payments": 161040,
+                "grants": 232,
+                "idvs": 32,
+                "loans": 0,
+                "other": 0
+            },
+            {
+                "awarding_toptier_agency_name": "Railroad Retirement Board",
+                "awarding_toptier_agency_code": "060",
+                "contracts": 239,
+                "direct_payments": 148144,
+                "grants": 0,
+                "idvs": 12,
+                "loans": 0,
+                "other": 0
+            }
+        ]
+    ],
+    "page_metadata": {
+        "page": 1,
+        "total": 77,
+        "limit": 10,
+        "next": 2,
+        "previous": null,
+        "hasNext": true,
+        "hasPrevious": false
+    },
+    "messages": [
+
+    ]
+}
