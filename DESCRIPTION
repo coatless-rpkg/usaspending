@@ -1,0 +1,23 @@
+Package: usaspending
+Title: Interface to USAspending.gov API
+Version: 0.1.0
+Authors@R: 
+    person("James Joseph", "Balamuta", , "james.balamuta@gmail.com", role = c("aut", "cre"))
+Description: Provides a comprehensive interface to the USAspending.gov API, 
+    allowing users to access federal spending data including agency budgets, 
+    awards, recipients, and more. The package implements the complete v2 API
+    with consistent return formats and error handling.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    cli,
+    httr2,
+    purrr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0),
+    jsonlite,
+    httptest2
+Config/testthat/edition: 3
