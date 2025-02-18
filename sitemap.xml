@@ -4,7 +4,14 @@
 <url><loc>/LICENSE.html</loc></url>
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
-<url><loc>/reference/agency.html</loc></url>
+<url><loc>/reference/agency_accounts.html</loc></url>
+<url><loc>/reference/agency_awards.html</loc></url>
+<url><loc>/reference/agency_budget.html</loc></url>
+<url><loc>/reference/agency_object_class.html</loc></url>
+<url><loc>/reference/agency_overview.html</loc></url>
+<url><loc>/reference/agency_program_activity.html</loc></url>
+<url><loc>/reference/agency_sub_components.html</loc></url>
+<url><loc>/reference/agency_treasury_account.html</loc></url>
 <url><loc>/reference/as_tibble.usasp_response.html</loc></url>
 <url><loc>/reference/check_agency_type.html</loc></url>
 <url><loc>/reference/check_api_url.html</loc></url>
@@ -16,6 +23,7 @@
 <url><loc>/reference/check_page_all.html</loc></url>
 <url><loc>/reference/check_page_limit.html</loc></url>
 <url><loc>/reference/check_page_number.html</loc></url>
+<url><loc>/reference/check_page_range.html</loc></url>
 <url><loc>/reference/check_response_type.html</loc></url>
 <url><loc>/reference/check_sort_direction.html</loc></url>
 <url><loc>/reference/check_toptier_code.html</loc></url>
@@ -33,6 +41,7 @@
 <url><loc>/reference/is_page_all.html</loc></url>
 <url><loc>/reference/is_page_limit.html</loc></url>
 <url><loc>/reference/is_page_number.html</loc></url>
+<url><loc>/reference/is_page_range.html</loc></url>
 <url><loc>/reference/is_sort_direction.html</loc></url>
 <url><loc>/reference/is_toptier_code.html</loc></url>
 <url><loc>/reference/param_validation.html</loc></url>
@@ -41,6 +50,7 @@
 <url><loc>/reference/transform_list_to_tibble.html</loc></url>
 <url><loc>/reference/transform_response.html</loc></url>
 <url><loc>/reference/usasp.html</loc></url>
+<url><loc>/reference/usaspending-common-params.html</loc></url>
 <url><loc>/reference/usaspending-package.html</loc></url>
 </urlset>
 
