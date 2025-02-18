@@ -354,3 +354,38 @@ check_response_type <- function(x) {
   }
   invisible(TRUE)
 }
+
+#' Check if value is a valid page range
+#'
+#' @param x Value to check
+#' @param total_pages Maximum number of pages available
+#' @return Logical indicating if x is a valid page range
+#' @keywords internal
+is_page_range <- function(x, total_pages) {
+  is.null(x) || # NULL is valid
+    (is.numeric(x) && 
+       length(x) == 2 && 
+       !any(is.na(x)) &&
+       all(x > 0) && 
+       all(x <= total_pages) &&
+       x[1] <= x[2])
+}
+
+#' Check page range validity 
+#'
+#' @param x Value to check
+#' @param total_pages Maximum number of pages available
+#' @return Invisibly returns TRUE if valid, errors if not
+#' @keywords internal
+check_page_range <- function(x, total_pages) {
+  if (!is_page_range(x, total_pages)) {
+    cli::cli_abort(c(
+      "Invalid page range",
+      "x" = "Must be NULL or numeric vector of length 2 with valid page numbers",
+      "i" = "Valid range is 1 to {total_pages}",
+      "i" = "First page must not exceed second page",
+      "i" = "Got: {toString(x)}"
+    ))
+  }
+  invisible(TRUE)
+}
