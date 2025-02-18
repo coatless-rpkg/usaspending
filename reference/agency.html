@@ -60,23 +60,56 @@ provide access to agency overview information, budget information, award data, a
 <span></span>
 <span><span class="fu">agency_budget_resources</span><span class="op">(</span><span class="va">toptier_code</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
-<span><span class="fu">agency_federal_accounts</span><span class="op">(</span></span>
+<span><span class="fu">agency_federal_account</span><span class="op">(</span></span>
 <span>  <span class="va">toptier_code</span>,</span>
 <span>  fiscal_year <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  .page_all <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  <span class="va">...</span></span>
 <span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_federal_account_count</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu">agency_object_classes</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, .page_all <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
-<span><span class="fu">agency_program_activities</span><span class="op">(</span></span>
+<span><span class="fu">agency_object_class_count</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_obligations_by_award_category</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_program_activity</span><span class="op">(</span></span>
 <span>  <span class="va">toptier_code</span>,</span>
 <span>  fiscal_year <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  .page_all <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  <span class="va">...</span></span>
 <span><span class="op">)</span></span>
 <span></span>
-<span><span class="fu">agency_sub_agencies</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, .page_all <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">agency_program_activity_count</span><span class="op">(</span></span>
+<span>  <span class="va">toptier_code</span>,</span>
+<span>  fiscal_year <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  .page_all <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_sub_agency</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, .page_all <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_sub_agency_count</span><span class="op">(</span></span>
+<span>  <span class="va">toptier_code</span>,</span>
+<span>  fiscal_year <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  .page_all <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_sub_components</span><span class="op">(</span><span class="va">toptier_code</span>, fiscal_year <span class="op">=</span> <span class="cn">NULL</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_sub_components_accounts</span><span class="op">(</span></span>
+<span>  <span class="va">toptier_code</span>,</span>
+<span>  <span class="va">bureau_slug</span>,</span>
+<span>  fiscal_year <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_treasury_account_object_class</span><span class="op">(</span><span class="va">treasury_account_symbol</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">agency_treasury_account_program_activity</span><span class="op">(</span><span class="va">treasury_account_symbol</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -103,6 +136,14 @@ If NULL (default), returns data for all available fiscal years.</p></dd>
 or just the first page (FALSE, default). Use TRUE for complete datasets,
 but be aware this may take longer for large result sets.</p></dd>
 
+
+<dt id="arg-bureau-slug">bureau_slug<a class="anchor" aria-label="anchor" href="#arg-bureau-slug"></a></dt>
+<dd><p>A character string slug identifier for the bureau</p></dd>
+
+
+<dt id="arg-treasury-account-symbol">treasury_account_symbol<a class="anchor" aria-label="anchor" href="#arg-treasury-account-symbol"></a></dt>
+<dd><p>A character string representing the Treasury Account Symbol (TAS)</p></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
@@ -110,13 +151,22 @@ but be aware this may take longer for large result sets.</p></dd>
 <li><p>agency_awards(): Detailed award information including amounts and recipients</p></li>
 <li><p>agency_awards_count(): Count of awards by category and fiscal year</p></li>
 <li><p>agency_awards_count_all(): Government-wide award counts</p></li>
-<li><p>agency_federal_accounts(): Federal accounts associated with the agency</p></li>
+<li><p>agency_federal_account(): Federal accounts associated with the agency</p></li>
+<li><p>agency_federal_account_count(): Count of federal accounts and treasury accounts</p></li>
 <li><p>agency_object_classes(): Object class spending for the agency</p></li>
 <li><p>agency_program_activities(): Program activities for the agency</p></li>
 <li><p>agency_sub_agencies(): Sub-agencies within the main agency</p></li>
 <li><p>agency_budget_function_count(): Count of budget functions</p></li>
 <li><p>agency_budget_functions(): Detailed budget function data</p></li>
 <li><p>agency_budget_resources(): Overview of agency budgetary resources</p></li>
+<li><p>agency_obligations_by_award_category(): Obligation amounts by award category</p></li>
+<li><p>agency_object_class_count(): Count of object classes</p></li>
+<li><p>agency_program_activity_count(): Count of program activity categories</p></li>
+<li><p>agency_sub_agency_count(): Count of sub-agencies and offices</p></li>
+<li><p>agency_sub_components(): List of bureaus for the agency</p></li>
+<li><p>agency_sub_components_accounts(): Federal accounts by bureau</p></li>
+<li><p>treasury_account_object_class(): Object classes for a treasury account</p></li>
+<li><p>treasury_account_program_activity(): Program activities for a treasury account</p></li>
 </ul></div>
     <div class="section level2">
     <h2 id="api-documentation">API Documentation<a class="anchor" aria-label="anchor" href="#api-documentation"></a></h2>
