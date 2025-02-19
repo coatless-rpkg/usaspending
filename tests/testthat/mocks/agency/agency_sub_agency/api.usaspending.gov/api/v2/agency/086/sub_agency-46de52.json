@@ -1,0 +1,1278 @@
+{
+    "toptier_code": "086",
+    "fiscal_year": 2023,
+    "page_metadata": {
+        "page": 1,
+        "total": 7,
+        "limit": 10,
+        "next": null,
+        "previous": null,
+        "hasNext": false,
+        "hasPrevious": false
+    },
+    "results": [
+        {
+            "abbreviation": null,
+            "name": "Assistant Secretary for Public and Indian Housing",
+            "total_obligations": 41019000740.81,
+            "transaction_count": 124632,
+            "new_award_count": 74952,
+            "children": [
+                {
+                    "code": "866601",
+                    "name": "PIH : PIH NYNRO;OFFICE OF PUBLIC H",
+                    "total_obligations": 5411468597.84,
+                    "transaction_count": 2873,
+                    "new_award_count": 1545
+                },
+                {
+                    "code": "864415",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 3268077904.88,
+                    "transaction_count": 3179,
+                    "new_award_count": 2449
+                },
+                {
+                    "code": "866630",
+                    "name": "PIH : LOSFO;PIH",
+                    "total_obligations": 3219414789.55,
+                    "transaction_count": 2707,
+                    "new_award_count": 2094
+                },
+                {
+                    "code": "861351",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 2149333340.57,
+                    "transaction_count": 5332,
+                    "new_award_count": 3552
+                },
+                {
+                    "code": "866618",
+                    "name": "PIH : CHIRO;PIH",
+                    "total_obligations": 1851825772.97,
+                    "transaction_count": 4020,
+                    "new_award_count": 2218
+                },
+                {
+                    "code": "866609",
+                    "name": "PIH : MIAFO PIH",
+                    "total_obligations": 1391782748.55,
+                    "transaction_count": 2996,
+                    "new_award_count": 1961
+                },
+                {
+                    "code": "866603",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 1385593364.76,
+                    "transaction_count": 4035,
+                    "new_award_count": 2485
+                },
+                {
+                    "code": "866604",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 1263238044.2,
+                    "transaction_count": 3474,
+                    "new_award_count": 2039
+                },
+                {
+                    "code": "861131",
+                    "name": "PIH:DAS FIELD OPS - REG10 SEATTLE",
+                    "total_obligations": 1177103056.0,
+                    "transaction_count": 2164,
+                    "new_award_count": 1502
+                },
+                {
+                    "code": "866625",
+                    "name": "PIH : FWRO;PIH;OPH",
+                    "total_obligations": 1083495655.11,
+                    "transaction_count": 4880,
+                    "new_award_count": 2674
+                },
+                {
+                    "code": "866607",
+                    "name": "PIH : ATLRO;PIH",
+                    "total_obligations": 985980501.57,
+                    "transaction_count": 3373,
+                    "new_award_count": 1212
+                },
+                {
+                    "code": "866629",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 859470926.44,
+                    "transaction_count": 5080,
+                    "new_award_count": 3619
+                },
+                {
+                    "code": "862112",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 851339085.12,
+                    "transaction_count": 1193,
+                    "new_award_count": 654
+                },
+                {
+                    "code": "866605",
+                    "name": "PIH : BALFO;PIH",
+                    "total_obligations": 781372031.15,
+                    "transaction_count": 1321,
+                    "new_award_count": 885
+                },
+                {
+                    "code": "866600",
+                    "name": "PIH : PIH;HARFO;OFFICE OF PUBLIC H",
+                    "total_obligations": 745905757.23,
+                    "transaction_count": 2229,
+                    "new_award_count": 1446
+                },
+                {
+                    "code": "866611",
+                    "name": "PIH : GREFO PIH",
+                    "total_obligations": 723728028.61,
+                    "transaction_count": 4023,
+                    "new_award_count": 2325
+                },
+                {
+                    "code": "866617",
+                    "name": "PIH : SJUFO; PIH",
+                    "total_obligations": 696679200.25,
+                    "transaction_count": 3767,
+                    "new_award_count": 1837
+                },
+                {
+                    "code": "866626",
+                    "name": "PIH : NORFO;PIH",
+                    "total_obligations": 623561279.96,
+                    "transaction_count": 3660,
+                    "new_award_count": 2283
+                },
+                {
+                    "code": "866619",
+                    "name": "PIH : CLEFO PIH;OPH",
+                    "total_obligations": 620862301.96,
+                    "transaction_count": 2078,
+                    "new_award_count": 1202
+                },
+                {
+                    "code": "861249",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 594394773.11,
+                    "transaction_count": 1821,
+                    "new_award_count": 1501
+                },
+                {
+                    "code": "866608",
+                    "name": "PIH : BIRFO;PIH",
+                    "total_obligations": 579650789.66,
+                    "transaction_count": 3682,
+                    "new_award_count": 1749
+                },
+                {
+                    "code": "866621",
+                    "name": "PIH : DETFO;PIH",
+                    "total_obligations": 567291807.94,
+                    "transaction_count": 1901,
+                    "new_award_count": 963
+                },
+                {
+                    "code": "866606",
+                    "name": "PIH : RICFO PIH",
+                    "total_obligations": 560500683.49,
+                    "transaction_count": 2071,
+                    "new_award_count": 1354
+                },
+                {
+                    "code": "866627",
+                    "name": "PIH : SANFO;PIH;OPH",
+                    "total_obligations": 559538223.96,
+                    "transaction_count": 3437,
+                    "new_award_count": 2112
+                },
+                {
+                    "code": "866602",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 529413324.19,
+                    "transaction_count": 3246,
+                    "new_award_count": 2232
+                },
+                {
+                    "code": "862017",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 482961861.66,
+                    "transaction_count": 2074,
+                    "new_award_count": 1054
+                },
+                {
+                    "code": "866624",
+                    "name": "PIH : MINFO;PIH;OPH",
+                    "total_obligations": 474518900.31,
+                    "transaction_count": 3429,
+                    "new_award_count": 2078
+                },
+                {
+                    "code": "866614",
+                    "name": "PIH : LOUFO;PIH",
+                    "total_obligations": 423980199.43,
+                    "transaction_count": 2685,
+                    "new_award_count": 1304
+                },
+                {
+                    "code": "866631",
+                    "name": "PIH : PHXFO;PIH",
+                    "total_obligations": 406643258.63,
+                    "transaction_count": 1149,
+                    "new_award_count": 855
+                },
+                {
+                    "code": "866613",
+                    "name": "PIH : JKVFO;PIH",
+                    "total_obligations": 401326795.93,
+                    "transaction_count": 1879,
+                    "new_award_count": 1238
+                },
+                {
+                    "code": "861448",
+                    "name": "PIH : PIH;MANFO; OFF OF PUBLIC HSN",
+                    "total_obligations": 400562944.34,
+                    "transaction_count": 1985,
+                    "new_award_count": 1600
+                },
+                {
+                    "code": "866622",
+                    "name": "PIH : INDFO;PIH",
+                    "total_obligations": 397971974.08,
+                    "transaction_count": 2121,
+                    "new_award_count": 1392
+                },
+                {
+                    "code": "863585",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 377916544.96,
+                    "transaction_count": 965,
+                    "new_award_count": 594
+                },
+                {
+                    "code": "864637",
+                    "name": "PIH : SACFO;PIH;OPH",
+                    "total_obligations": 355316771.22,
+                    "transaction_count": 715,
+                    "new_award_count": 570
+                },
+                {
+                    "code": "866628",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 341515357.72,
+                    "transaction_count": 3237,
+                    "new_award_count": 1629
+                },
+                {
+                    "code": "866610",
+                    "name": "PIH : COLFO; OPH",
+                    "total_obligations": 328568986.97,
+                    "transaction_count": 1748,
+                    "new_award_count": 1059
+                },
+                {
+                    "code": "864575",
+                    "name": "PIH : SOUTHWEST OFFICE OF NATIVE",
+                    "total_obligations": 320969723.55,
+                    "transaction_count": 223,
+                    "new_award_count": 46
+                },
+                {
+                    "code": "866616",
+                    "name": "PIH : NASFO;PIH",
+                    "total_obligations": 298981541.41,
+                    "transaction_count": 1354,
+                    "new_award_count": 537
+                },
+                {
+                    "code": "863729",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 269540410.61,
+                    "transaction_count": 1952,
+                    "new_award_count": 809
+                },
+                {
+                    "code": "866623",
+                    "name": "PIH : MILFO;PIH",
+                    "total_obligations": 266381412.28,
+                    "transaction_count": 2616,
+                    "new_award_count": 1587
+                },
+                {
+                    "code": "864034",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 256201155.04,
+                    "transaction_count": 1736,
+                    "new_award_count": 927
+                },
+                {
+                    "code": "866620",
+                    "name": "PIH : CLBFO PIH OPH",
+                    "total_obligations": 254745126.61,
+                    "transaction_count": 1312,
+                    "new_award_count": 985
+                },
+                {
+                    "code": "866612",
+                    "name": "PIH : JACFO PIH",
+                    "total_obligations": 253461651.32,
+                    "transaction_count": 1146,
+                    "new_award_count": 602
+                },
+                {
+                    "code": "866632",
+                    "name": "PIH : CINFO PIH",
+                    "total_obligations": 223164945.97,
+                    "transaction_count": 811,
+                    "new_award_count": 409
+                },
+                {
+                    "code": "863622",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 205221059.04,
+                    "transaction_count": 2462,
+                    "new_award_count": 1544
+                },
+                {
+                    "code": "863734",
+                    "name": "PIH : SOUTHERN PLAINS OFFICE OF",
+                    "total_obligations": 168322827.64,
+                    "transaction_count": 100,
+                    "new_award_count": 28
+                },
+                {
+                    "code": "861468",
+                    "name": "PIH : PIH;PRVFO;OFFICE OF PUBLIC",
+                    "total_obligations": 165535935.98,
+                    "transaction_count": 1137,
+                    "new_award_count": 703
+                },
+                {
+                    "code": "861188",
+                    "name": "PIH : ALASKA OFFICE OF NATIVE AMERICAN PROGRAMS",
+                    "total_obligations": 147328621.85,
+                    "transaction_count": 85,
+                    "new_award_count": 23
+                },
+                {
+                    "code": "863999",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 144729431.91,
+                    "transaction_count": 1897,
+                    "new_award_count": 809
+                },
+                {
+                    "code": "862957",
+                    "name": "PIH : CHIRO;PIH;ONAP",
+                    "total_obligations": 140788956.72,
+                    "transaction_count": 88,
+                    "new_award_count": 14
+                },
+                {
+                    "code": "863961",
+                    "name": "PIH : PIH;OFFICE OF PUBLIC HOUSING",
+                    "total_obligations": 140169435.0,
+                    "transaction_count": 1242,
+                    "new_award_count": 900
+                },
+                {
+                    "code": "864227",
+                    "name": "PIH : NORTHERN PLAIN OFFICE OF",
+                    "total_obligations": 137515574.49,
+                    "transaction_count": 79,
+                    "new_award_count": 21
+                },
+                {
+                    "code": "866615",
+                    "name": "PIH : KNXFO PIH",
+                    "total_obligations": 133473376.07,
+                    "transaction_count": 745,
+                    "new_award_count": 467
+                },
+                {
+                    "code": "863534",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 125243182.02,
+                    "transaction_count": 874,
+                    "new_award_count": 524
+                },
+                {
+                    "code": "861144",
+                    "name": "PIH : NORTHWEST OFFICE OF NATIVE",
+                    "total_obligations": 123904202.72,
+                    "transaction_count": 70,
+                    "new_award_count": 15
+                },
+                {
+                    "code": "861979",
+                    "name": "PIH : CHAFO PIH",
+                    "total_obligations": 123725498.83,
+                    "transaction_count": 954,
+                    "new_award_count": 574
+                },
+                {
+                    "code": "863201",
+                    "name": "PIH : GRAFO;PIH",
+                    "total_obligations": 116273317.07,
+                    "transaction_count": 1355,
+                    "new_award_count": 840
+                },
+                {
+                    "code": "864466",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 60862157.0,
+                    "transaction_count": 176,
+                    "new_award_count": 30
+                },
+                {
+                    "code": "866280",
+                    "name": "PIH : OFFICE OF NATIVE AMERICAN",
+                    "total_obligations": 38765780.04,
+                    "transaction_count": 56,
+                    "new_award_count": 15
+                },
+                {
+                    "code": "862716",
+                    "name": "PIH : DAS FOR OFFICE OF FIELD OPERA",
+                    "total_obligations": 26989067.33,
+                    "transaction_count": 156,
+                    "new_award_count": 42
+                },
+                {
+                    "code": "866288",
+                    "name": "PIH : OFFICE OF LOAN GUARANTEE",
+                    "total_obligations": 3813063.24,
+                    "transaction_count": 1471,
+                    "new_award_count": 1236
+                },
+                {
+                    "code": "866179",
+                    "name": "PIH : PUBLIC  INDIAN HOUSING",
+                    "total_obligations": 800000.0,
+                    "transaction_count": 3,
+                    "new_award_count": 3
+                },
+                {
+                    "code": "866292",
+                    "name": "PIH : OFFFICE OF THE DEPUTY ASST.",
+                    "total_obligations": -212297.25,
+                    "transaction_count": 3,
+                    "new_award_count": 0
+                }
+            ]
+        },
+        {
+            "abbreviation": null,
+            "name": "Assistant Secretary for Community Planning and Development",
+            "total_obligations": 19603487110.05,
+            "transaction_count": 18827,
+            "new_award_count": 11702,
+            "children": [
+                {
+                    "code": "865420",
+                    "name": "CPD : COMMUNITY PLANNING DEVELOPMT",
+                    "total_obligations": 5414759897.02,
+                    "transaction_count": 222,
+                    "new_award_count": 137
+                },
+                {
+                    "code": "865429",
+                    "name": "CPD; OED; CONGRESSIOHAL GRANTS",
+                    "total_obligations": 3178013283.0,
+                    "transaction_count": 1793,
+                    "new_award_count": 1789
+                },
+                {
+                    "code": "864342",
+                    "name": "CPD : CPD FIELD OFFICES REGION IX P",
+                    "total_obligations": 1275435648.39,
+                    "transaction_count": 1465,
+                    "new_award_count": 844
+                },
+                {
+                    "code": "864475",
+                    "name": "CPD : CPD FIELD OFFICES REGION IX",
+                    "total_obligations": 727175841.84,
+                    "transaction_count": 1185,
+                    "new_award_count": 613
+                },
+                {
+                    "code": "862337",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 646007918.98,
+                    "transaction_count": 195,
+                    "new_award_count": 99
+                },
+                {
+                    "code": "862859",
+                    "name": "CPD : CPD FIELD OFFICES REGION V MI",
+                    "total_obligations": 578606433.59,
+                    "transaction_count": 645,
+                    "new_award_count": 462
+                },
+                {
+                    "code": "861291",
+                    "name": "CPD : CPD FIELD OFFICES REGION 1",
+                    "total_obligations": 451602028.84,
+                    "transaction_count": 1192,
+                    "new_award_count": 506
+                },
+                {
+                    "code": "861783",
+                    "name": "CPD : CPD FIELD OFFICES REGION III",
+                    "total_obligations": 448783268.76,
+                    "transaction_count": 627,
+                    "new_award_count": 434
+                },
+                {
+                    "code": "862573",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 405727021.49,
+                    "transaction_count": 513,
+                    "new_award_count": 348
+                },
+                {
+                    "code": "863065",
+                    "name": "CPD : CPD FIELD OFFICES REGION V MI",
+                    "total_obligations": 375920755.42,
+                    "transaction_count": 582,
+                    "new_award_count": 320
+                },
+                {
+                    "code": "863396",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI",
+                    "total_obligations": 364588742.9,
+                    "transaction_count": 368,
+                    "new_award_count": 229
+                },
+                {
+                    "code": "861500",
+                    "name": "CPD : CPD FIELD OFFICES REGION II N",
+                    "total_obligations": 362568028.66,
+                    "transaction_count": 569,
+                    "new_award_count": 302
+                },
+                {
+                    "code": "862476",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 362521320.85,
+                    "transaction_count": 433,
+                    "new_award_count": 273
+                },
+                {
+                    "code": "861716",
+                    "name": "CPD : CPD FIELD OFFICES REGION II",
+                    "total_obligations": 343650955.01,
+                    "transaction_count": 712,
+                    "new_award_count": 396
+                },
+                {
+                    "code": "863119",
+                    "name": "CPD : CPD FIELD OFFICES REGION V MI",
+                    "total_obligations": 328071577.48,
+                    "transaction_count": 466,
+                    "new_award_count": 359
+                },
+                {
+                    "code": "864077",
+                    "name": "CPD : CPD FIELD OFFICES REGION VIII",
+                    "total_obligations": 281757370.73,
+                    "transaction_count": 454,
+                    "new_award_count": 292
+                },
+                {
+                    "code": "862629",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 265780966.7,
+                    "transaction_count": 331,
+                    "new_award_count": 173
+                },
+                {
+                    "code": "863849",
+                    "name": "CPD : CPD FIELD OFFICES REGION VII",
+                    "total_obligations": 254178381.68,
+                    "transaction_count": 271,
+                    "new_award_count": 197
+                },
+                {
+                    "code": "862163",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 226356469.11,
+                    "transaction_count": 417,
+                    "new_award_count": 226
+                },
+                {
+                    "code": "862390",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 223487024.52,
+                    "transaction_count": 377,
+                    "new_award_count": 191
+                },
+                {
+                    "code": "861068",
+                    "name": "CPD : CPD FIELD OFFICES REGION X NORTHWEST/ALASKA - SEATTLE REGIONAL OFFICE",
+                    "total_obligations": 205839545.74,
+                    "transaction_count": 367,
+                    "new_award_count": 239
+                },
+                {
+                    "code": "863652",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI S",
+                    "total_obligations": 201309195.27,
+                    "transaction_count": 309,
+                    "new_award_count": 169
+                },
+                {
+                    "code": "861397",
+                    "name": "CPD : CPD FIELD OFFICES REGION 1",
+                    "total_obligations": 198725900.21,
+                    "transaction_count": 321,
+                    "new_award_count": 204
+                },
+                {
+                    "code": "861647",
+                    "name": "CPD : CPD FIELD OFFICES REGION II",
+                    "total_obligations": 193171915.32,
+                    "transaction_count": 491,
+                    "new_award_count": 321
+                },
+                {
+                    "code": "861914",
+                    "name": "CPD : CPD FIELD OFFICES REGION III",
+                    "total_obligations": 189717080.6,
+                    "transaction_count": 445,
+                    "new_award_count": 180
+                },
+                {
+                    "code": "863311",
+                    "name": "CPD : CPD FIELD OFFICES REGION V MI",
+                    "total_obligations": 168912855.13,
+                    "transaction_count": 404,
+                    "new_award_count": 249
+                },
+                {
+                    "code": "861223",
+                    "name": "CPD : CPD FIELD OFFICES REGION X NO",
+                    "total_obligations": 161586311.03,
+                    "transaction_count": 288,
+                    "new_award_count": 191
+                },
+                {
+                    "code": "863214",
+                    "name": "CPD : CPD FIELD OFFICES REGION V MI",
+                    "total_obligations": 149149540.6,
+                    "transaction_count": 327,
+                    "new_award_count": 151
+                },
+                {
+                    "code": "861988",
+                    "name": "CPD : CPD FIELD OFFICES REGION III",
+                    "total_obligations": 146010189.15,
+                    "transaction_count": 272,
+                    "new_award_count": 171
+                },
+                {
+                    "code": "862671",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 145220652.66,
+                    "transaction_count": 263,
+                    "new_award_count": 179
+                },
+                {
+                    "code": "862081",
+                    "name": "CPD : CPD FIELD OFFICES REGION III",
+                    "total_obligations": 137597670.67,
+                    "transaction_count": 313,
+                    "new_award_count": 159
+                },
+                {
+                    "code": "863563",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI S",
+                    "total_obligations": 135892030.93,
+                    "transaction_count": 150,
+                    "new_award_count": 80
+                },
+                {
+                    "code": "863258",
+                    "name": "CPD : MILFO;CPD",
+                    "total_obligations": 133434880.91,
+                    "transaction_count": 239,
+                    "new_award_count": 125
+                },
+                {
+                    "code": "863761",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI",
+                    "total_obligations": 129537090.23,
+                    "transaction_count": 139,
+                    "new_award_count": 97
+                },
+                {
+                    "code": "862776",
+                    "name": "CPD : CARAO;CPD",
+                    "total_obligations": 124426500.04,
+                    "transaction_count": 225,
+                    "new_award_count": 127
+                },
+                {
+                    "code": "862034",
+                    "name": "CPD : CPD FIELD OFFICES REGION III",
+                    "total_obligations": 111364595.59,
+                    "transaction_count": 214,
+                    "new_award_count": 143
+                },
+                {
+                    "code": "863977",
+                    "name": "CPD : CPD FIELD OFFICES REGION VII",
+                    "total_obligations": 107797304.58,
+                    "transaction_count": 174,
+                    "new_award_count": 140
+                },
+                {
+                    "code": "862434",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 94379336.69,
+                    "transaction_count": 170,
+                    "new_award_count": 119
+                },
+                {
+                    "code": "863707",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI S",
+                    "total_obligations": 69950551.89,
+                    "transaction_count": 124,
+                    "new_award_count": 91
+                },
+                {
+                    "code": "864008",
+                    "name": "CPD : CPD FIELD OFFICES REGION VII",
+                    "total_obligations": 63336473.36,
+                    "transaction_count": 186,
+                    "new_award_count": 91
+                },
+                {
+                    "code": "862528",
+                    "name": "CPD : CPD FIELD OFFICES REGION IV -",
+                    "total_obligations": 58380597.11,
+                    "transaction_count": 97,
+                    "new_award_count": 51
+                },
+                {
+                    "code": "863598",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI S",
+                    "total_obligations": 48463767.08,
+                    "transaction_count": 97,
+                    "new_award_count": 42
+                },
+                {
+                    "code": "863519",
+                    "name": "CPD : CPD FIELD OFFICES REGION VI",
+                    "total_obligations": 47841664.6,
+                    "transaction_count": 115,
+                    "new_award_count": 75
+                },
+                {
+                    "code": "864454",
+                    "name": "CPD : CPD FIELD OFFICES REGION IX",
+                    "total_obligations": 45985925.91,
+                    "transaction_count": 129,
+                    "new_award_count": 75
+                },
+                {
+                    "code": "861175",
+                    "name": "CPD : CPD FIELD OFFICES REGION X NORTHWEST/ALASKA - ACHORAGE FIELD OFFICE",
+                    "total_obligations": 17352306.78,
+                    "transaction_count": 70,
+                    "new_award_count": 42
+                },
+                {
+                    "code": "861456",
+                    "name": "CPD : PROVIDENCE;RI CPD",
+                    "total_obligations": 1088568.0,
+                    "transaction_count": 10,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "862725",
+                    "name": "CPD : NASHVILLE;TN  CPD",
+                    "total_obligations": 443375.0,
+                    "transaction_count": 5,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "863184",
+                    "name": "CPD : GRAND RAPIDS;MI CPD",
+                    "total_obligations": 433688.0,
+                    "transaction_count": 3,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "864545",
+                    "name": "CPD : ARIZONA STATE FIELD OFFICE",
+                    "total_obligations": 401200.0,
+                    "transaction_count": 12,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "863010",
+                    "name": "CPD : CLEVELAND AREA FIELD OFFICE",
+                    "total_obligations": 178054.0,
+                    "transaction_count": 8,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "861967",
+                    "name": "CPD : CHARLESTON;WV CPD",
+                    "total_obligations": 174961.0,
+                    "transaction_count": 8,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "864620",
+                    "name": "CPD : SACREMENTO AREA FIELD OFFICE",
+                    "total_obligations": 165606.0,
+                    "transaction_count": 2,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "861432",
+                    "name": "CPD : MANCHESTER;NH  CPD",
+                    "total_obligations": 139377.0,
+                    "transaction_count": 15,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "862984",
+                    "name": "CPD : CINC AREA FIELD OFFICE",
+                    "total_obligations": 85464.0,
+                    "transaction_count": 4,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "865450",
+                    "name": "CPD : OFFICE OF BLOCK GRANTS ASSIST",
+                    "total_obligations": 0.0,
+                    "transaction_count": 14,
+                    "new_award_count": 7
+                }
+            ]
+        },
+        {
+            "abbreviation": null,
+            "name": "Assistant Secretary for Housing--Federal Housing Commissioner",
+            "total_obligations": 10765831811.09,
+            "transaction_count": 877734,
+            "new_award_count": 814066,
+            "children": [
+                {
+                    "code": "861539",
+                    "name": "HSNG : ED MF HOUSING DIV",
+                    "total_obligations": 3041389217.0,
+                    "transaction_count": 9532,
+                    "new_award_count": 4170
+                },
+                {
+                    "code": "864382",
+                    "name": "HSNG : ED CASO;HSNG",
+                    "total_obligations": 2165311414.09,
+                    "transaction_count": 11557,
+                    "new_award_count": 5219
+                },
+                {
+                    "code": "861325",
+                    "name": "HSNG : ED HSNG;MF HOUSING DIVISION",
+                    "total_obligations": 2017887907.18,
+                    "transaction_count": 9968,
+                    "new_award_count": 4409
+                },
+                {
+                    "code": "861934",
+                    "name": "HSNG : ED MDSO;HSNG",
+                    "total_obligations": 1559082923.52,
+                    "transaction_count": 10074,
+                    "new_award_count": 4513
+                },
+                {
+                    "code": "862251",
+                    "name": "HSNG : ED GASO;HSNG",
+                    "total_obligations": 1301578044.0,
+                    "transaction_count": 13962,
+                    "new_award_count": 6273
+                },
+                {
+                    "code": "862911",
+                    "name": "HSNG : ED CHICAGO;HSNG",
+                    "total_obligations": 1198911463.01,
+                    "transaction_count": 8120,
+                    "new_award_count": 3532
+                },
+                {
+                    "code": "863139",
+                    "name": "HSNG : ED MISO;HSNG",
+                    "total_obligations": 1127964524.0,
+                    "transaction_count": 9828,
+                    "new_award_count": 4237
+                },
+                {
+                    "code": "862590",
+                    "name": "HSNG : ED JKVFO;HSNG",
+                    "total_obligations": 966012847.44,
+                    "transaction_count": 6644,
+                    "new_award_count": 3040
+                },
+                {
+                    "code": "863448",
+                    "name": "HSNG : ED TXSO;HSNG",
+                    "total_obligations": 661328553.03,
+                    "transaction_count": 6801,
+                    "new_award_count": 3140
+                },
+                {
+                    "code": "863886",
+                    "name": "HSNG : ED KS/MOSO;HSNG",
+                    "total_obligations": 610146392.79,
+                    "transaction_count": 7834,
+                    "new_award_count": 3560
+                },
+                {
+                    "code": "865683",
+                    "name": "HSNG : OFFICE OF HOUSING",
+                    "total_obligations": 571017648.39,
+                    "transaction_count": 4196,
+                    "new_award_count": 124
+                },
+                {
+                    "code": "864168",
+                    "name": "HSNG : ED COSO;HSNG",
+                    "total_obligations": 567997139.38,
+                    "transaction_count": 7439,
+                    "new_award_count": 3510
+                },
+                {
+                    "code": "863327",
+                    "name": "HSNG : ED MNSO;HSNG",
+                    "total_obligations": 369239343.77,
+                    "transaction_count": 4996,
+                    "new_award_count": 2132
+                },
+                {
+                    "code": "862988",
+                    "name": "HSNG : ED CINCAO;HSNG",
+                    "total_obligations": -5286.0,
+                    "transaction_count": 1,
+                    "new_award_count": 1
+                },
+                {
+                    "code": "864501",
+                    "name": "HSNG : ED LAAO;HSNG",
+                    "total_obligations": -106200.0,
+                    "transaction_count": 1,
+                    "new_award_count": 1
+                },
+                {
+                    "code": "863088",
+                    "name": "HSNG : ED HSNG;MF HOUSING DIVISION",
+                    "total_obligations": -268880.0,
+                    "transaction_count": 2,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "862006",
+                    "name": "HSNG : ED PITTAO;HSNG",
+                    "total_obligations": -285828.54,
+                    "transaction_count": 1,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "863019",
+                    "name": "HSNG : ED CLEFO;HSNG",
+                    "total_obligations": -393829.0,
+                    "transaction_count": 1,
+                    "new_award_count": 1
+                },
+                {
+                    "code": "862493",
+                    "name": "HSNG : ED GREFO;HSNG",
+                    "total_obligations": -425006.61,
+                    "transaction_count": 3,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "862048",
+                    "name": "HSNG : ED VASO;HSNG",
+                    "total_obligations": -980568.0,
+                    "transaction_count": 1,
+                    "new_award_count": 1
+                },
+                {
+                    "code": "861735",
+                    "name": "HSNG : ED HSNG;HSNG MGMT DIV",
+                    "total_obligations": -2043640.0,
+                    "transaction_count": 2,
+                    "new_award_count": 2
+                },
+                {
+                    "code": "865936",
+                    "name": "HSNG : HSNG; DAS MF HOUSING  PROGRA",
+                    "total_obligations": -298668682.08,
+                    "transaction_count": 751,
+                    "new_award_count": 751
+                },
+                {
+                    "code": "866001",
+                    "name": "HSNG : HSNG; DAS SINGLE FAMILY HOUS",
+                    "total_obligations": -5088857686.28,
+                    "transaction_count": 766020,
+                    "new_award_count": 766020
+                }
+            ]
+        },
+        {
+            "abbreviation": "HUD",
+            "name": "Department of Housing and Urban Development",
+            "total_obligations": 432946106.51,
+            "transaction_count": 1652,
+            "new_award_count": 408,
+            "children": [
+                {
+                    "code": "866156",
+                    "name": "CPO : FHA HOUSING SUPPORT DIVISION",
+                    "total_obligations": 293897300.96,
+                    "transaction_count": 146,
+                    "new_award_count": 28
+                },
+                {
+                    "code": "866154",
+                    "name": "CPO : IT OPERATIONS SUPPORT DIVISION; NOF",
+                    "total_obligations": 160669085.7,
+                    "transaction_count": 42,
+                    "new_award_count": 13
+                },
+                {
+                    "code": "866149",
+                    "name": "CPO : CPO; ACFO; WFCOD; REAL ESTATE",
+                    "total_obligations": 140617766.27,
+                    "transaction_count": 98,
+                    "new_award_count": 44
+                },
+                {
+                    "code": "866153",
+                    "name": "CPO : IT PROGRAM SUPPORT DIVISION; NOI",
+                    "total_obligations": 74248786.64,
+                    "transaction_count": 109,
+                    "new_award_count": 30
+                },
+                {
+                    "code": "866151",
+                    "name": "CPO : MANAGEMENT SUPPORT DIVISION",
+                    "total_obligations": 58945444.74,
+                    "transaction_count": 135,
+                    "new_award_count": 31
+                },
+                {
+                    "code": "866143",
+                    "name": "CPO : PHILADELPHIA OPERATIONS BRANC",
+                    "total_obligations": 57227117.61,
+                    "transaction_count": 343,
+                    "new_award_count": 97
+                },
+                {
+                    "code": "866157",
+                    "name": "CPO : RESEARCH AND COMMUNITY SUPPOR",
+                    "total_obligations": 44472821.8,
+                    "transaction_count": 126,
+                    "new_award_count": 15
+                },
+                {
+                    "code": "866141",
+                    "name": "CPO : CHICAGO OPERATIONS BRANCH",
+                    "total_obligations": 41589603.82,
+                    "transaction_count": 151,
+                    "new_award_count": 34
+                },
+                {
+                    "code": "866148",
+                    "name": "CPO : PROGRAM SUPPORT BRANCH DENVER",
+                    "total_obligations": 21066973.63,
+                    "transaction_count": 105,
+                    "new_award_count": 3
+                },
+                {
+                    "code": "866146",
+                    "name": "CPO : CPO; ACFO; SFCOD; FT WORTH OP",
+                    "total_obligations": 11961687.8,
+                    "transaction_count": 56,
+                    "new_award_count": 22
+                },
+                {
+                    "code": "866127",
+                    "name": "CPO : OFF OF CHIEF PROC OFFICER",
+                    "total_obligations": 1971383.47,
+                    "transaction_count": 22,
+                    "new_award_count": 1
+                },
+                {
+                    "code": "864825",
+                    "name": "ADMN : ADMIN;OFAR; NOB; REGIONAL VIII",
+                    "total_obligations": 0.0,
+                    "transaction_count": 6,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "866158",
+                    "name": "CPO : OFFFICE OF POLICY AND SYSTEMS",
+                    "total_obligations": 0.0,
+                    "transaction_count": 1,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "86043A",
+                    "name": "DEPT OF HOUSING  URBAN DEVELOPMENT",
+                    "total_obligations": -26263.04,
+                    "transaction_count": 3,
+                    "new_award_count": 0
+                },
+                {
+                    "code": "866145",
+                    "name": "CPO : CPO; ACFO; SFCOD; ATLANTA OPE",
+                    "total_obligations": -14464008.91,
+                    "transaction_count": 121,
+                    "new_award_count": 59
+                },
+                {
+                    "code": "866160",
+                    "name": "CPO : ATLANTA OPERATIONS BRANCH",
+                    "total_obligations": -139606040.33,
+                    "transaction_count": 175,
+                    "new_award_count": 33
+                },
+                {
+                    "code": "866155",
+                    "name": "CPO : GNMA SUPPORT DIVISION",
+                    "total_obligations": -319625553.65,
+                    "transaction_count": 13,
+                    "new_award_count": 0
+                }
+            ]
+        },
+        {
+            "abbreviation": null,
+            "name": "Office of Lead Hazard Control and Healthy Homes",
+            "total_obligations": 177576825.39,
+            "transaction_count": 174,
+            "new_award_count": 97,
+            "children": [
+                {
+                    "code": "866110",
+                    "name": "LBPA : OFF LEAD-BASED PAINT ABATE",
+                    "total_obligations": 177576825.39,
+                    "transaction_count": 174,
+                    "new_award_count": 97
+                }
+            ]
+        },
+        {
+            "abbreviation": null,
+            "name": "Assistant Secretary for Fair Housing and Equal Opportunity",
+            "total_obligations": 103723390.72,
+            "transaction_count": 647,
+            "new_award_count": 278,
+            "children": [
+                {
+                    "code": "862867",
+                    "name": "FHEO : CHIRO;FHEO",
+                    "total_obligations": 19299486.98,
+                    "transaction_count": 116,
+                    "new_award_count": 41
+                },
+                {
+                    "code": "864353",
+                    "name": "FHEO : SFCRO FHEO",
+                    "total_obligations": 18642598.72,
+                    "transaction_count": 66,
+                    "new_award_count": 21
+                },
+                {
+                    "code": "862172",
+                    "name": "FHEO : FHEO--ATLRO (SUMMARY CODE)",
+                    "total_obligations": 16240910.58,
+                    "transaction_count": 152,
+                    "new_award_count": 104
+                },
+                {
+                    "code": "861793",
+                    "name": "FHEO : FHEO--SUMMARY CODE",
+                    "total_obligations": 9896854.02,
+                    "transaction_count": 59,
+                    "new_award_count": 20
+                },
+                {
+                    "code": "865512",
+                    "name": "FHEO : FAIR HOUSING  EQUAL OPPOR",
+                    "total_obligations": 7793550.0,
+                    "transaction_count": 9,
+                    "new_award_count": 8
+                },
+                {
+                    "code": "863402",
+                    "name": "FHEO : FWRO;FHEO",
+                    "total_obligations": 7338926.16,
+                    "transaction_count": 40,
+                    "new_award_count": 12
+                },
+                {
+                    "code": "861508",
+                    "name": "FHEO : FHEONYNRO;--SUMMARY",
+                    "total_obligations": 7289719.6,
+                    "transaction_count": 34,
+                    "new_award_count": 13
+                },
+                {
+                    "code": "861298",
+                    "name": "FHEO : FHEO;BOSRO --SUMMARY CODE",
+                    "total_obligations": 7218125.2,
+                    "transaction_count": 55,
+                    "new_award_count": 27
+                },
+                {
+                    "code": "864086",
+                    "name": "FHEO : FHEO;DENRO --SUMMARY CODE N",
+                    "total_obligations": 3916335.44,
+                    "transaction_count": 34,
+                    "new_award_count": 9
+                },
+                {
+                    "code": "861074",
+                    "name": "FHEO : FHEO--SUMMARY CODE",
+                    "total_obligations": 3560806.02,
+                    "transaction_count": 26,
+                    "new_award_count": 11
+                },
+                {
+                    "code": "863855",
+                    "name": "FHEO : FHEO--SUMMARY",
+                    "total_obligations": 2526078.0,
+                    "transaction_count": 56,
+                    "new_award_count": 13
+                }
+            ]
+        },
+        {
+            "abbreviation": null,
+            "name": "Assistant Secretary for Policy Development and Research",
+            "total_obligations": 22437626.6,
+            "transaction_count": 26,
+            "new_award_count": 20,
+            "children": [
+                {
+                    "code": "866409",
+                    "name": "PDR : POLICY DEVELOPMENT  RESEARCH",
+                    "total_obligations": 22437626.6,
+                    "transaction_count": 26,
+                    "new_award_count": 20
+                }
+            ]
+        }
+    ],
+    "messages": [
+
+    ]
+}

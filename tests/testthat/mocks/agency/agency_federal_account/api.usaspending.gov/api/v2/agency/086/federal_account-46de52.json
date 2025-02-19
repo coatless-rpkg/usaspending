@@ -1,0 +1,662 @@
+{
+    "toptier_code": "086",
+    "fiscal_year": 2023,
+    "page_metadata": {
+        "page": 1,
+        "total": 54,
+        "limit": 10,
+        "next": 2,
+        "previous": null,
+        "hasNext": true,
+        "hasPrevious": false
+    },
+    "results": [
+        {
+            "code": "086-0302",
+            "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-X-0302-000",
+                    "obligated_amount": 30188502062.08,
+                    "gross_outlay_amount": 28766218373.09
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2021/2030-0302-000",
+                    "obligated_amount": 448976119.0,
+                    "gross_outlay_amount": 740073744.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2023/2026-0302-000",
+                    "obligated_amount": 37117290.0,
+                    "gross_outlay_amount": 28098731.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2022/2025-0302-000",
+                    "obligated_amount": 12959840.0,
+                    "gross_outlay_amount": 24839148.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2021/2024-0302-000",
+                    "obligated_amount": 950.0,
+                    "gross_outlay_amount": 184853.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2016/2019-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 12.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2018/2019-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 11.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2018/2021-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 41.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2019/2020-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 3.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2019/2022-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 1.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2020/2021-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 3.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2020/2023-0302-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 6.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2017/2020-0302-000",
+                    "obligated_amount": -1.0,
+                    "gross_outlay_amount": 3.0
+                },
+                {
+                    "name": "Tenant-Based Rental Assistance, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2017/2018-0302-000",
+                    "obligated_amount": -17.0,
+                    "gross_outlay_amount": 2.0
+                }
+            ],
+            "obligated_amount": 30687556243.08,
+            "gross_outlay_amount": 29559414931.09
+        },
+        {
+            "code": "086-0303",
+            "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+                    "code": "086-X-0303-000",
+                    "obligated_amount": 15074035511.17,
+                    "gross_outlay_amount": 14495225497.34
+                },
+                {
+                    "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+                    "code": "086-2023/2026-0303-000",
+                    "obligated_amount": 63277134.0,
+                    "gross_outlay_amount": 13599123.0
+                },
+                {
+                    "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+                    "code": "086-2022/2025-0303-000",
+                    "obligated_amount": 3000000.0,
+                    "gross_outlay_amount": 25090552.0
+                },
+                {
+                    "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+                    "code": "086-2016/2019-0303-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 2953.0
+                },
+                {
+                    "name": "Project-Based Rental Assistance, Housing Programs, Housing and Urban Development",
+                    "code": "086-2021/2024-0303-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 745919.0
+                }
+            ],
+            "obligated_amount": 15140312645.17,
+            "gross_outlay_amount": 14534664044.34
+        },
+        {
+            "code": "086-0162",
+            "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2023/2026-0162-000",
+                    "obligated_amount": 5775920289.0,
+                    "gross_outlay_amount": 38072651.86
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-X-0162-000",
+                    "obligated_amount": 5747487705.46,
+                    "gross_outlay_amount": 3873833860.2
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2022/2025-0162-000",
+                    "obligated_amount": 2798298534.78,
+                    "gross_outlay_amount": 1121504980.56
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2021/2023-0162-000",
+                    "obligated_amount": 7868947.88,
+                    "gross_outlay_amount": 943201953.02
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2017/2019-0162-000",
+                    "obligated_amount": -2200739.39,
+                    "gross_outlay_amount": 98033520.4
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2018/2020-0162-000",
+                    "obligated_amount": -2819729.79,
+                    "gross_outlay_amount": 188144361.38
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2016/2018-0162-000",
+                    "obligated_amount": -3124733.28,
+                    "gross_outlay_amount": 93855911.39
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2019/2021-0162-000",
+                    "obligated_amount": -4123606.36,
+                    "gross_outlay_amount": 350112150.83
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2020/2022-0162-000",
+                    "obligated_amount": -7523595.8,
+                    "gross_outlay_amount": 1751376951.27
+                },
+                {
+                    "name": "Community Development Fund, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2013/2017-0162-000",
+                    "obligated_amount": -32382434.97,
+                    "gross_outlay_amount": 315710144.25
+                }
+            ],
+            "obligated_amount": 14277400637.53,
+            "gross_outlay_amount": 8773846485.16
+        },
+        {
+            "code": "086-0481",
+            "name": "Public Housing Fund, Public and Indian Housing, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Public Housing Fund, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2023/2026-0481-000",
+                    "obligated_amount": 7864893048.37,
+                    "gross_outlay_amount": 4055728348.87
+                },
+                {
+                    "name": "Public Housing Fund, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2022/2025-0481-000",
+                    "obligated_amount": 622419177.93,
+                    "gross_outlay_amount": 2103462279.2
+                },
+                {
+                    "name": "Public Housing Fund, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2021/2024-0481-000",
+                    "obligated_amount": 66399618.2,
+                    "gross_outlay_amount": 929154227.48
+                }
+            ],
+            "obligated_amount": 8553711844.5,
+            "gross_outlay_amount": 7088344855.55
+        },
+        {
+            "code": "086-0192",
+            "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2022/2024-0192-000",
+                    "obligated_amount": 2760084363.95,
+                    "gross_outlay_amount": 350547108.96
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2023/2025-0192-000",
+                    "obligated_amount": 282855172.0,
+                    "gross_outlay_amount": 851746.76
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2021/2023-0192-000",
+                    "obligated_amount": 182710125.62,
+                    "gross_outlay_amount": 1959101083.5
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-X-0192-000",
+                    "obligated_amount": 143705974.3,
+                    "gross_outlay_amount": 13040223.14
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2021/2022-0192-000",
+                    "obligated_amount": -55835.63,
+                    "gross_outlay_amount": 12368025.6
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2020/2021-0192-000",
+                    "obligated_amount": -2396334.23,
+                    "gross_outlay_amount": 14370958.59
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2016/2018-0192-000",
+                    "obligated_amount": -23455188.77,
+                    "gross_outlay_amount": 287665.43
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2020/2022-0192-000",
+                    "obligated_amount": -37673539.61,
+                    "gross_outlay_amount": 1265548442.09
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2017/2019-0192-000",
+                    "obligated_amount": -44133912.04,
+                    "gross_outlay_amount": 2726329.41
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2019/2021-0192-000",
+                    "obligated_amount": -70544105.72,
+                    "gross_outlay_amount": 18102593.58
+                },
+                {
+                    "name": "Homeless Assistance Grants, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-2018/2020-0192-000",
+                    "obligated_amount": -85882177.46,
+                    "gross_outlay_amount": 5460104.28
+                }
+            ],
+            "obligated_amount": 3105214542.41,
+            "gross_outlay_amount": 3642404281.34
+        },
+        {
+            "code": "086-0183",
+            "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-X-0183-000",
+                    "obligated_amount": 1815314900.88,
+                    "gross_outlay_amount": 1815314900.88
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2023/2024-0183-000",
+                    "obligated_amount": 139046719.73,
+                    "gross_outlay_amount": 43775959.55
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2022/2023-0183-000",
+                    "obligated_amount": 19196344.51,
+                    "gross_outlay_amount": 88281180.88
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2020/2021-0183-000",
+                    "obligated_amount": -1100887.33,
+                    "gross_outlay_amount": 3228209.36
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2021/2022-0183-000",
+                    "obligated_amount": -1402775.9,
+                    "gross_outlay_amount": 11905504.87
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2019/2020-0183-000",
+                    "obligated_amount": -1455733.74,
+                    "gross_outlay_amount": 292733.51
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2018/2019-0183-000",
+                    "obligated_amount": -2272537.18,
+                    "gross_outlay_amount": 0.0
+                },
+                {
+                    "name": "Mutual Mortgage Insurance Program Account, Federal Housing Administration, Housing and Urban Development",
+                    "code": "086-2017/2018-0183-000",
+                    "obligated_amount": -3034829.46,
+                    "gross_outlay_amount": 20239.6
+                }
+            ],
+            "obligated_amount": 1964291201.51,
+            "gross_outlay_amount": 1962818728.65
+        },
+        {
+            "code": "086-0205",
+            "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2023/2026-0205-000",
+                    "obligated_amount": 1356975556.0,
+                    "gross_outlay_amount": 1877106.34
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2022/2025-0205-000",
+                    "obligated_amount": 599076233.4,
+                    "gross_outlay_amount": 72441683.38
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2021/2025-0205-000",
+                    "obligated_amount": 4376650.39,
+                    "gross_outlay_amount": 67129082.1
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2021/2024-0205-000",
+                    "obligated_amount": 650282.75,
+                    "gross_outlay_amount": 151268719.54
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community Planning and Development, Housing and Urban Development",
+                    "code": "086-X-0205-000",
+                    "obligated_amount": 471030.62,
+                    "gross_outlay_amount": 131547.26
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2020/2023-0205-000",
+                    "obligated_amount": 83330.98,
+                    "gross_outlay_amount": 207161847.08
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2016/2019-0205-000",
+                    "obligated_amount": -27963.85,
+                    "gross_outlay_amount": 21515418.34
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2017/2020-0205-000",
+                    "obligated_amount": -73057.03,
+                    "gross_outlay_amount": 47410188.89
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2019/2022-0205-000",
+                    "obligated_amount": -179203.78,
+                    "gross_outlay_amount": 240224568.11
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2018/2021-0205-000",
+                    "obligated_amount": -212084.13,
+                    "gross_outlay_amount": 181266286.21
+                },
+                {
+                    "name": "Home Investment Partnerships Program, Community and Planning Development, Housing and Urban Development",
+                    "code": "086-2015/2018-0205-000",
+                    "obligated_amount": -4176584.84,
+                    "gross_outlay_amount": 26866349.25
+                }
+            ],
+            "obligated_amount": 1956964190.51,
+            "gross_outlay_amount": 1017292796.5
+        },
+        {
+            "code": "086-0313",
+            "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2023/2027-0313-000",
+                    "obligated_amount": 792427491.15,
+                    "gross_outlay_amount": 270797157.28
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2022/2026-0313-000",
+                    "obligated_amount": 206396538.9,
+                    "gross_outlay_amount": 235347143.05
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2021/2025-0313-000",
+                    "obligated_amount": 43618033.69,
+                    "gross_outlay_amount": 277009811.81
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2020/2024-0313-000",
+                    "obligated_amount": 1779968.03,
+                    "gross_outlay_amount": 129392869.18
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-X-0313-000",
+                    "obligated_amount": 512208.8,
+                    "gross_outlay_amount": 3823577.53
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2019/2023-0313-000",
+                    "obligated_amount": 45711.12,
+                    "gross_outlay_amount": 87102751.2
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2017/2021-0313-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 2063212.27
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2020/2022-0313-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 10718631.33
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2016/2020-0313-000",
+                    "obligated_amount": -91.83,
+                    "gross_outlay_amount": 918239.79
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2015/2019-0313-000",
+                    "obligated_amount": -2455.04,
+                    "gross_outlay_amount": 104262.72
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2018/2022-0313-000",
+                    "obligated_amount": -96725.46,
+                    "gross_outlay_amount": 23924587.45
+                },
+                {
+                    "name": "Native American Programs, Public and Indian Housing, Housing and Urban Development",
+                    "code": "086-2014/2018-0313-000",
+                    "obligated_amount": -1563543.15,
+                    "gross_outlay_amount": 463574.96
+                }
+            ],
+            "obligated_amount": 1043117136.21,
+            "gross_outlay_amount": 1041665818.57
+        },
+        {
+            "code": "086-0479",
+            "name": "Program Offices, Management and Administration, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2023/2024-0479-000",
+                    "obligated_amount": 961143817.29,
+                    "gross_outlay_amount": 878135331.3
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2022/2023-0479-000",
+                    "obligated_amount": 51903111.41,
+                    "gross_outlay_amount": 133986926.55
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2021/2029-0479-000",
+                    "obligated_amount": 2006254.54,
+                    "gross_outlay_amount": 2309129.6
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2021/2030-0479-000",
+                    "obligated_amount": 1604772.54,
+                    "gross_outlay_amount": 4435409.04
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2021/2022-0479-000",
+                    "obligated_amount": 1000327.68,
+                    "gross_outlay_amount": 6179070.24
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2021/2025-0479-000",
+                    "obligated_amount": 542784.25,
+                    "gross_outlay_amount": 571633.42
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2020/2025-0479-000",
+                    "obligated_amount": 45158.81,
+                    "gross_outlay_amount": 73152.76
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2021/2023-0479-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 280659.9
+                },
+                {
+                    "name": "Program Offices, Management and Administration, Housing and Urban Development",
+                    "code": "086-2020/2021-0479-000",
+                    "obligated_amount": -91544.76,
+                    "gross_outlay_amount": 140615.03
+                }
+            ],
+            "obligated_amount": 1018154681.76,
+            "gross_outlay_amount": 1026111927.84
+        },
+        {
+            "code": "086-0320",
+            "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+            "children": [
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2023/2026-0320-000",
+                    "obligated_amount": 712782387.52,
+                    "gross_outlay_amount": 227156527.57
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2022/2025-0320-000",
+                    "obligated_amount": 129696151.87,
+                    "gross_outlay_amount": 539075497.12
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2020/2023-0320-000",
+                    "obligated_amount": 19707844.91,
+                    "gross_outlay_amount": 29797045.89
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2021/2024-0320-000",
+                    "obligated_amount": 2426730.53,
+                    "gross_outlay_amount": 25022202.76
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2010/2013-0320-000",
+                    "obligated_amount": 0.0,
+                    "gross_outlay_amount": 111078.0
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2015/2018-0320-000",
+                    "obligated_amount": -582.0,
+                    "gross_outlay_amount": 0.0
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2017/2020-0320-000",
+                    "obligated_amount": -9553.01,
+                    "gross_outlay_amount": 1334007.3
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2016/2019-0320-000",
+                    "obligated_amount": -11649.63,
+                    "gross_outlay_amount": 266.7
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2018/2021-0320-000",
+                    "obligated_amount": -72618.73,
+                    "gross_outlay_amount": 22661349.3
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-X-0320-000",
+                    "obligated_amount": -4098893.11,
+                    "gross_outlay_amount": 33157393.9
+                },
+                {
+                    "name": "Housing for the Elderly, Housing Programs, Housing and Urban Development",
+                    "code": "086-2019/2022-0320-000",
+                    "obligated_amount": -4639240.3,
+                    "gross_outlay_amount": 11209882.85
+                }
+            ],
+            "obligated_amount": 855780578.05,
+            "gross_outlay_amount": 889525251.39
+        }
+    ],
+    "messages": [
+
+    ]
+}

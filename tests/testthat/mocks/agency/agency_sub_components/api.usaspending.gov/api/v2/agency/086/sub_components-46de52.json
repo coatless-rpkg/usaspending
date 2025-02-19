@@ -1,0 +1,74 @@
+{
+    "toptier_code": "086",
+    "fiscal_year": 2023,
+    "results": [
+        {
+            "name": "Public and Indian Housing Programs",
+            "id": "public-and-indian-housing-programs",
+            "total_obligations": 41006218461.26,
+            "total_outlays": 39075768265.59,
+            "total_budgetary_resources": 46715136381.45
+        },
+        {
+            "name": "Community Planning and Development",
+            "id": "community-planning-and-development",
+            "total_obligations": 20713359861.5,
+            "total_outlays": 14249618967.84,
+            "total_budgetary_resources": 31492537877.81
+        },
+        {
+            "name": "Housing Programs",
+            "id": "housing-programs",
+            "total_obligations": 18935476897.55,
+            "total_outlays": 18430393791.9,
+            "total_budgetary_resources": 154572090935.5
+        },
+        {
+            "name": "Management and Administration",
+            "id": "management-and-administration",
+            "total_obligations": 2211548893.54,
+            "total_outlays": 2178928346.82,
+            "total_budgetary_resources": 2810109845.32
+        },
+        {
+            "name": "Government National Mortgage Association",
+            "id": "government-national-mortgage-association",
+            "total_obligations": 343252061.32,
+            "total_outlays": 476378588.12,
+            "total_budgetary_resources": 23689289605.73
+        },
+        {
+            "name": "Office of Lead Hazard Control and Healthy Homes",
+            "id": "office-of-lead-hazard-control-and-healthy-homes",
+            "total_obligations": 179866428.35,
+            "total_outlays": 147714877.58,
+            "total_budgetary_resources": 986775624.55
+        },
+        {
+            "name": "Policy Development and Research",
+            "id": "policy-development-and-research",
+            "total_obligations": 177334102.74,
+            "total_outlays": 121680121.97,
+            "total_budgetary_resources": 235011380.49
+        },
+        {
+            "name": "Fair Housing and Equal Opportunity",
+            "id": "fair-housing-and-equal-opportunity",
+            "total_obligations": 104937163.82,
+            "total_outlays": 92754836.86,
+            "total_budgetary_resources": 151077770.42
+        }
+    ],
+    "messages": [
+
+    ],
+    "page_metadata": {
+        "page": 1,
+        "total": 8,
+        "limit": 10,
+        "next": null,
+        "previous": null,
+        "hasNext": false,
+        "hasPrevious": false
+    }
+}

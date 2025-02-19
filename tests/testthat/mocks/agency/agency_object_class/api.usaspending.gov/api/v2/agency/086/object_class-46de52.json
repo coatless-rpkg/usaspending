@@ -1,0 +1,68 @@
+{
+    "toptier_code": "086",
+    "fiscal_year": 2023,
+    "page_metadata": {
+        "page": 1,
+        "total": 27,
+        "limit": 10,
+        "next": 2,
+        "previous": null,
+        "hasNext": true,
+        "hasPrevious": false
+    },
+    "results": [
+        {
+            "name": "Grants, subsidies, and contributions",
+            "obligated_amount": 80788179267.36,
+            "gross_outlay_amount": 71815252072.84
+        },
+        {
+            "name": "Full-time permanent",
+            "obligated_amount": 1062720420.47,
+            "gross_outlay_amount": 1057405668.13
+        },
+        {
+            "name": "Advisory and assistance services",
+            "obligated_amount": 443506294.78,
+            "gross_outlay_amount": 528017228.66
+        },
+        {
+            "name": "Civilian personnel benefits",
+            "obligated_amount": 397084100.24,
+            "gross_outlay_amount": 395622682.24
+        },
+        {
+            "name": "Operation and maintenance of equipment",
+            "obligated_amount": 283727263.73,
+            "gross_outlay_amount": 282882338.49
+        },
+        {
+            "name": "Other services from non-Federal sources",
+            "obligated_amount": 221529744.97,
+            "gross_outlay_amount": 236519274.02
+        },
+        {
+            "name": "Other goods and services from Federal sources",
+            "obligated_amount": 206394292.21,
+            "gross_outlay_amount": 204546119.75
+        },
+        {
+            "name": "Rental payments to GSA",
+            "obligated_amount": 94987291.62,
+            "gross_outlay_amount": 101822373.68
+        },
+        {
+            "name": "Equipment",
+            "obligated_amount": 43399161.98,
+            "gross_outlay_amount": 23413377.46
+        },
+        {
+            "name": "Other personnel compensation",
+            "obligated_amount": 32130985.92,
+            "gross_outlay_amount": 32112426.51
+        }
+    ],
+    "messages": [
+
+    ]
+}

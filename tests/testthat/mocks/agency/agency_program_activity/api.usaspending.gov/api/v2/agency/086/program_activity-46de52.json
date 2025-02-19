@@ -1,0 +1,68 @@
+{
+    "toptier_code": "086",
+    "fiscal_year": 2023,
+    "page_metadata": {
+        "page": 1,
+        "total": 154,
+        "limit": 10,
+        "next": 2,
+        "previous": null,
+        "hasNext": true,
+        "hasPrevious": false
+    },
+    "results": [
+        {
+            "name": "CONTRACT RENEWALS",
+            "obligated_amount": 37242345987.79,
+            "gross_outlay_amount": 36312809544.35
+        },
+        {
+            "name": "DISASTER ASSISTANCE",
+            "obligated_amount": 5868959483.56,
+            "gross_outlay_amount": 6408602460.21
+        },
+        {
+            "name": "OPERATING SUBSIDIES",
+            "obligated_amount": 5045818702.42,
+            "gross_outlay_amount": 5022711232.47
+        },
+        {
+            "name": "ECONOMIC DEVELOPMENT INITIATIVE",
+            "obligated_amount": 4498694848.0,
+            "gross_outlay_amount": 62763517.51
+        },
+        {
+            "name": "COMMUNITY DEVELOPMENT FORMULA GRANTS",
+            "obligated_amount": 4037953172.04,
+            "gross_outlay_amount": 3414091232.14
+        },
+        {
+            "name": "CAPITAL FUNDS GRANTS",
+            "obligated_amount": 3187833174.52,
+            "gross_outlay_amount": 1954163301.88
+        },
+        {
+            "name": "ADMINISTRATIVE FEES",
+            "obligated_amount": 2765225340.0,
+            "gross_outlay_amount": 2732692897.0
+        },
+        {
+            "name": "TENANT-BASED RENTAL ASSISTANCE (EMERGENCY)",
+            "obligated_amount": 2622692563.0,
+            "gross_outlay_amount": 2459511874.0
+        },
+        {
+            "name": "CONTINUUM OF CARE (SPC, SHP, RURAL)",
+            "obligated_amount": 2605643940.03,
+            "gross_outlay_amount": 2308593165.19
+        },
+        {
+            "name": "REESTIMATES OF LOAN GUARANTEE SUBSIDY",
+            "obligated_amount": 2510264455.69,
+            "gross_outlay_amount": 2510264455.69
+        }
+    ],
+    "messages": [
+
+    ]
+}

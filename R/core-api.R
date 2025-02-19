@@ -2,6 +2,7 @@
 #' 
 #' @param endpoint API endpoint to call
 #' @param ... Name-value pairs giving API parameters
+#' @param .method HTTP method to use ("GET" or "POST")
 #' @param .api_url The base URL for the API
 #' @param .api_version The API version to use
 #' @param .page_all Logical, whether to automatically fetch all pages
@@ -18,9 +19,22 @@
 #' usasp("/agency/awards/count", fiscal_year = 2023, 
 #'       .page_all = TRUE, .flatten = TRUE)
 #'       
+#' # Send POST request with request body
+#' usasp("/search/spending_by_award",
+#'       filters = list(
+#'         award_type = c("contracts"),
+#'         time_period = list(list(
+#'           start_date = "2023-01-01",
+#'           end_date = "2023-12-31"
+#'         ))
+#'       ),
+#'       fields = c("recipient_name", "total_obligation"),
+#'       .method = "POST")
+#'       
 #' # Get raw JSON response
 #' usasp("/agency/awards/count", fiscal_year = 2023, .as_tibble = FALSE)
 usasp <- function(endpoint, ..., 
+                  .method = "GET",
                   .api_url = "https://api.usaspending.gov",
                   .api_version = "v2",
                   .page_all = FALSE,
@@ -67,23 +81,36 @@ usasp <- function(endpoint, ...,
     httr2::req_user_agent("usaspending-r-api-client") |>
     httr2::req_error(is_error = function(resp) FALSE)  # Don't treat HTTP errors as R errors
   
-  # Add query parameters if present
-  if (length(dots) > 0 || .limit != 10) {
-    query_params <- dots
-    query_params$limit <- .limit
-    req <- httr2::req_url_query(req, !!!query_params)
+  # Validate HTTP method
+  .method <- toupper(.method)
+  if (!.method %in% c("GET", "POST")) {
+    cli::cli_abort("HTTP method must be either 'GET' or 'POST'")
+  }
+  
+  # Handle parameters based on method
+  if (.method == "GET") {
+    if (length(dots) > 0 || .limit != 10) {
+      query_params <- dots
+      query_params$limit <- .limit
+      req <- httr2::req_url_query(req, !!!query_params)
+    }
+  } else {
+    # For POST, add parameters as JSON body
+    body_params <- dots
+    if (.limit != 10) {
+      body_params$limit <- .limit
+    }
+    req <- req |>
+      httr2::req_method("POST") |>
+      httr2::req_headers("Content-Type" = "application/json") |>
+      httr2::req_body_json(body_params)
   }
   
   # Make initial request
   first_resp <- httr2::req_perform(req)
   
-  # Check for HTTP errors
-  if (httr2::resp_is_error(first_resp)) {
-    cli::cli_abort(c(
-      "API request failed",
-      "x" = "HTTP {httr2::resp_status(first_resp)}"
-    ))
-  }
+  # Check for HTTP errors with detailed diagnostics
+  check_api_response(first_resp, endpoint, .method)
   
   # Check response type
   check_response_type(first_resp)

@@ -1,5 +1,5 @@
 structure(list(method = "GET", url = "https://api.usaspending.gov/api/v2/nonexistent/endpoint", 
-    status_code = 404L, headers = structure(list(Date = "Tue, 18 Feb 2025 09:59:41 GMT", 
+    status_code = 404L, headers = structure(list(Date = "Wed, 19 Feb 2025 09:27:10 GMT", 
         `Content-Type` = "text/html; charset=utf-8", `Content-Length` = "179", 
         Connection = "keep-alive", `X-Frame-Options` = "DENY", 
         `X-Content-Type-Options` = "nosniff", `Referrer-Policy` = "same-origin", 

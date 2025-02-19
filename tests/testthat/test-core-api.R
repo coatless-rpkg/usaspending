@@ -1,4 +1,4 @@
-httptest2::with_mock_dir("mocks/basic_request", {
+httptest2::with_mock_dir("mocks/core/basic_request", {
   testthat::test_that("usasp handles basic requests correctly", {
     resp <- usasp("/agency/086")
     testthat::expect_s3_class(resp, "usasp_tibble")
@@ -6,7 +6,7 @@ httptest2::with_mock_dir("mocks/basic_request", {
 })
 
 
-httptest2::with_mock_dir("mocks/path_params", {
+httptest2::with_mock_dir("mocks/core/path_params", {
   testthat::test_that("usasp handles path parameters correctly", {
       resp <- usasp("/agency/{toptier_code}", toptier_code = "086")
       testthat::expect_s3_class(resp, "usasp_tibble")
@@ -22,7 +22,7 @@ testthat::test_that("usasp validates path parameters", {
 })
 
 testthat::test_that("usasp handles query parameters correctly", {
-  httptest2::with_mock_dir("mocks/query_params", {
+  httptest2::with_mock_dir("mocks/core/query_params", {
     resp <- usasp("/agency/awards/count", 
                   fiscal_year = 2023, 
                   group = "all")
@@ -30,7 +30,7 @@ testthat::test_that("usasp handles query parameters correctly", {
   })
 })
 
-httptest2::with_mock_dir("mocks/pagination", {
+httptest2::with_mock_dir("mocks/core/pagination", {
   testthat::test_that("usasp handles pagination correctly", {
     # First page
     resp_single <- usasp("/agency/awards/count", 
@@ -52,7 +52,7 @@ httptest2::with_mock_dir("mocks/pagination", {
   })
 })
 
-httptest2::with_mock_dir("mocks/errors", {
+httptest2::with_mock_dir("mocks/core/errors", {
   testthat::test_that("usasp handles API errors gracefully", {
     testthat::expect_error(
       usasp("/nonexistent/endpoint"),
