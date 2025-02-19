@@ -389,3 +389,54 @@ check_page_range <- function(x, total_pages) {
   }
   invisible(TRUE)
 }
+
+#' Check API response for errors and provide detailed diagnostics
+#' 
+#' @param resp An httr2 response object
+#' @param endpoint The API endpoint that was called
+#' @param method The HTTP method that was used
+#' @return The original response if no errors, otherwise aborts with detailed error
+#' @keywords internal
+check_api_response <- function(resp, endpoint, method) {
+  if (httr2::resp_is_error(resp)) {
+    # Try to extract error details from response
+    error_body <- tryCatch({
+      httr2::resp_body_json(resp)
+    }, error = function(e) NULL)
+    
+    # Build informative error message
+    error_msg <- c(
+      "API request failed",
+      "x" = "HTTP {httr2::resp_status(resp)}: {httr2::resp_status_desc(resp)}"
+    )
+    
+    # Add additional error details if available
+    if (!is.null(error_body) && !is.null(error_body$detail)) {
+      error_msg <- c(error_msg, "i" = "Error detail: {error_body$detail}")
+    } else if (!is.null(error_body) && !is.null(error_body$message)) {
+      error_msg <- c(error_msg, "i" = "Error message: {error_body$message}")
+    }
+    
+    # Add information about the endpoint and parameters
+    error_msg <- c(error_msg, 
+                   "i" = "Endpoint: {endpoint}",
+                   "i" = "HTTP method: {method}"
+    )
+    
+    # Add the raw response for debugging
+    raw_response <- tryCatch({
+      httr2::resp_body_string(resp)
+    }, error = function(e) NULL)
+    
+    if (!is.null(raw_response) && nchar(raw_response) > 0) {
+      if (nchar(raw_response) > 500) {
+        raw_response <- paste0(substr(raw_response, 1, 500), "...")
+      }
+      error_msg <- c(error_msg, "i" = "Raw response: {raw_response}")
+    }
+    
+    cli::cli_abort(error_msg)
+  }
+  
+  return(resp)
+}
