@@ -19,7 +19,6 @@
 #'   * Non-paginated responses with direct data fields
 #'   * Responses with nested data structures (when flatten = TRUE)
 #' @importFrom tibble tibble as_tibble
-#' @importFrom purrr map_dfr map_df
 #' @keywords internal
 transform_response <- function(x, flatten = FALSE) {
   # Extract pagination metadata if present
@@ -110,7 +109,7 @@ transform_list_to_tibble <- function(x) {
     if (all(vapply(x, is.list, logical(1))) && 
         all(vapply(x, function(l) !is.null(names(l)), logical(1)))) {
       # Convert list of lists to data frame rows
-      df <- purrr::map_dfr(x, ~{
+      rows_list <- lapply(x, function(.x) {
         result <- as.list(.x)
         result[vapply(result, is.null, logical(1))] <- NA
         # Handle nested lists within each element
@@ -124,11 +123,25 @@ transform_list_to_tibble <- function(x) {
         }
         tibble::as_tibble(result)
       })
+      
+      # Combine all rows using do.call and rbind
+      if (length(rows_list) > 0) {
+        df <- do.call(rbind, c(rows_list, list(stringsAsFactors = FALSE)))
+        df <- tibble::as_tibble(df)
+      } else {
+        df <- tibble::tibble()
+      }
     } else {
       # Handle case where all elements are named lists with same structure
       if (length(x) > 0 && 
           all(vapply(x[[1]], function(el) is.list(el) || is.atomic(el), logical(1)))) {
-        df <- purrr::map_dfr(x[[1]], ~tibble::tibble(!!!.x))
+        rows_list <- lapply(x[[1]], function(.x) tibble::tibble(!!!.x))
+        if (length(rows_list) > 0) {
+          df <- do.call(rbind, c(rows_list, list(stringsAsFactors = FALSE)))
+          df <- tibble::as_tibble(df)
+        } else {
+          df <- tibble::tibble()
+        }
       } else {
         # Create default names v1, v2, etc.
         names(x) <- paste0("v", seq_along(x))
@@ -195,20 +208,34 @@ flatten_tibble <- function(df) {
       if (all(vapply(val, is.list, logical(1))) && 
           length(unique(vapply(lapply(val, names), paste, collapse = ",", FUN.VALUE = ""))) == 1) {
         # Convert to a nested tibble instead of flattening
-        flat_cols[[col]] <- list(purrr::map_dfr(val, ~{
+        tibble_list <- lapply(val, function(.x) {
           result <- as.list(.x)
           result[vapply(result, is.null, logical(1))] <- NA
           tibble::as_tibble(result)
-        }))
+        })
+        
+        if (length(tibble_list) > 0) {
+          combined_tibble <- do.call(rbind, c(tibble_list, list(stringsAsFactors = FALSE)))
+          flat_cols[[col]] <- list(tibble::as_tibble(combined_tibble))
+        } else {
+          flat_cols[[col]] <- list(tibble::tibble())
+        }
       } else if (all(vapply(val, length, integer(1)) == 1)) {
         # Simple list of scalars
         flat_cols[[col]] <- unlist(val)
       } else {
         # Complex nested structure - create separate columns if possible
-        nested_df <- tryCatch(
-          purrr::map_df(val, ~as.list(.x)),
-          error = function(e) NULL
-        )
+        nested_df <- tryCatch({
+          # Use lapply and do.call to avoid using purrr
+          list_data <- lapply(val, as.list)
+          if (length(list_data) > 0) {
+            combined_data <- do.call(rbind, c(list_data, list(stringsAsFactors = FALSE)))
+            tibble::as_tibble(combined_data)
+          } else {
+            NULL
+          }
+        }, error = function(e) NULL)
+        
         if (!is.null(nested_df) && ncol(nested_df) > 0) {
           new_names <- paste(col, names(nested_df), sep = "_")
           names(nested_df) <- new_names
