@@ -12,8 +12,10 @@
 <url><loc>/reference/agency_program_activity.html</loc></url>
 <url><loc>/reference/agency_sub_components.html</loc></url>
 <url><loc>/reference/agency_treasury_account.html</loc></url>
-<url><loc>/reference/as_tibble.usasp_response.html</loc></url>
+<url><loc>/reference/as_tibble.usasp_raw_response.html</loc></url>
+<url><loc>/reference/as_usasp_response.html</loc></url>
 <url><loc>/reference/check_agency_type.html</loc></url>
+<url><loc>/reference/check_api_response.html</loc></url>
 <url><loc>/reference/check_api_url.html</loc></url>
 <url><loc>/reference/check_api_version.html</loc></url>
 <url><loc>/reference/check_award_codes.html</loc></url>
@@ -27,7 +29,10 @@
 <url><loc>/reference/check_response_type.html</loc></url>
 <url><loc>/reference/check_sort_direction.html</loc></url>
 <url><loc>/reference/check_toptier_code.html</loc></url>
+<url><loc>/reference/combine_usasp_tibbles.html</loc></url>
+<url><loc>/reference/extract_nested_data.html</loc></url>
 <url><loc>/reference/flatten_tibble.html</loc></url>
+<url><loc>/reference/get_all_pages.html</loc></url>
 <url><loc>/reference/has_pagination.html</loc></url>
 <url><loc>/reference/has_valid_award_codes.html</loc></url>
 <url><loc>/reference/has_valid_content_type.html</loc></url>
@@ -45,6 +50,7 @@
 <url><loc>/reference/is_sort_direction.html</loc></url>
 <url><loc>/reference/is_toptier_code.html</loc></url>
 <url><loc>/reference/param_validation.html</loc></url>
+<url><loc>/reference/print.usasp_raw_response.html</loc></url>
 <url><loc>/reference/print.usasp_response.html</loc></url>
 <url><loc>/reference/print.usasp_tibble.html</loc></url>
 <url><loc>/reference/transform_list_to_tibble.html</loc></url>
