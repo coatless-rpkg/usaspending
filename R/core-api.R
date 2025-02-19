@@ -194,7 +194,7 @@ usasp <- function(endpoint, ...,
   
   # Create response object
   resp <- structure(data, 
-                    class = c(class_name, "usasp_response"),
+                    class = c(class_name, "usasp_raw_response"),
                     endpoint = clean_endpoint)
   
   # Transform to tibble if requested
@@ -216,17 +216,17 @@ has_pagination <- function(x) {
     all(c("page", "total", "limit", "hasNext") %in% names(x$page_metadata))
 }
 
-#' Print method for usasp_response objects
+#' Print method for usasp_raw_response objects
 #' 
 #' @param x A usasp_response object
 #' @param ... Additional arguments passed to print
 #' @export
-print.usasp_response <- function(x, ...) {
+print.usasp_raw_response <- function(x, ...) {
   # Get endpoint type from class and format for display
   endpoint_type <- sub("usasp_", "", class(x)[1])
   title <- tools::toTitleCase(gsub("_", " ", endpoint_type))
   
-  cat("Agency Overview\n\n")
+  cli::cli_h1("USASpending API Raw Response")
   
   NextMethod()
 }
