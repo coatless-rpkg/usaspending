@@ -1,0 +1,10 @@
+structure(list(method = "GET", url = "usasp/nonexistent/endpoint", 
+    status_code = 404L, headers = structure(list(Date = "Wed, 19 Feb 2025 10:26:04 GMT", 
+        `Content-Type` = "text/html; charset=utf-8", `Content-Length` = "179", 
+        Connection = "keep-alive", `X-Frame-Options` = "DENY", 
+        `X-Content-Type-Options` = "nosniff", `Referrer-Policy` = "same-origin", 
+        `Cross-Origin-Opener-Policy` = "same-origin", Vary = "origin", 
+        `Strict-Transport-Security` = "max-age=31536000; includeSubDomains", 
+        `Set-Cookie` = "TS01d83a7d=010be1b31e74cafe100150dffc85a86bfd09e679cb7cba97cdca053b351d05242eefbd48543e4ce03354a6c56c5578f0c5b588c2ee; Path=/"), class = "httr2_headers"), 
+    body = charToRaw("\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

@@ -1,4 +1,4 @@
-httptest2::with_mock_dir("mocks/agency/agency_overview", {
+httptest2::with_mock_dir("agency/overview", {
   testthat::test_that("agency_overview() makes correct API call", {
     response <- agency_overview("086")
     
@@ -8,7 +8,7 @@ httptest2::with_mock_dir("mocks/agency/agency_overview", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_awards", {
+httptest2::with_mock_dir("agency/awards", {
   testthat::test_that("agency_awards() makes correct API call", {
     response <- agency_awards("086", fiscal_year = 2023)
     
@@ -18,7 +18,7 @@ httptest2::with_mock_dir("mocks/agency/agency_awards", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_budget", {
+httptest2::with_mock_dir("agency/budget", {
   testthat::test_that("agency_budget_resources() makes correct API call", {
     response <- agency_budget_resources("086")
     
@@ -28,7 +28,7 @@ httptest2::with_mock_dir("mocks/agency/agency_budget", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_object_class", {
+httptest2::with_mock_dir("agency/object_class", {
   testthat::test_that("agency_object_class() makes correct API call", {
     response <- agency_object_class("086", fiscal_year = 2023)
     
@@ -38,7 +38,7 @@ httptest2::with_mock_dir("mocks/agency/agency_object_class", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_program_activity", {
+httptest2::with_mock_dir("agency/program_activity", {
   testthat::test_that("agency_program_activity() makes correct API call", {
     response <- agency_program_activity("086", fiscal_year = 2023)
     
@@ -48,7 +48,7 @@ httptest2::with_mock_dir("mocks/agency/agency_program_activity", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_awards_count", {
+httptest2::with_mock_dir("agency/awards_count", {
   testthat::test_that("agency_awards_count() makes correct API call", {
     response <- agency_awards_count("086", fiscal_year = 2023)
     
@@ -58,7 +58,7 @@ httptest2::with_mock_dir("mocks/agency/agency_awards_count", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_awards_count_all", {
+httptest2::with_mock_dir("agency/awards_count_all", {
   testthat::test_that("agency_awards_count_all() makes correct API call", {
     response <- agency_awards_count_all(fiscal_year = 2023)
     
@@ -70,7 +70,7 @@ httptest2::with_mock_dir("mocks/agency/agency_awards_count_all", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_federal_account", {
+httptest2::with_mock_dir("agency/federal_account", {
   testthat::test_that("agency_federal_account() makes correct API call", {
     response <- agency_federal_account("086", fiscal_year = 2023)
     
@@ -80,7 +80,7 @@ httptest2::with_mock_dir("mocks/agency/agency_federal_account", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_sub_agency", {
+httptest2::with_mock_dir("agency/sub_agency", {
   testthat::test_that("agency_sub_agency() makes correct API call", {
     response <- agency_sub_agency("086", fiscal_year = 2023)
     
@@ -90,7 +90,7 @@ httptest2::with_mock_dir("mocks/agency/agency_sub_agency", {
   })
 })
 
-httptest2::with_mock_dir("mocks/agency/agency_sub_components", {
+httptest2::with_mock_dir("agency/sub_components", {
   testthat::test_that("agency_sub_components() makes correct API call", {
     response <- agency_sub_components("086", fiscal_year = 2023)
     
